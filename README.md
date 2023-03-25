@@ -4,6 +4,7 @@
 </p>
 What is Decision Science？
 </p>
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/0.0.0.0-000.jpeg" height=400>
 </div>
 
 事实上，我们在做一件很需要专注的事情，需要不止10000个小时。
