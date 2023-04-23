@@ -21,3 +21,6 @@ What is Decision Science？
 |v1.1.0|I|再版|2021-07-25|1、内容修订</p>2、语雀补录|
 |v1.1.1|I|修订|2022-03-15|1、资源链接|
 |v1.2.0|I|修订|2023-03-01|1、Github push</p>2、敏感内容修订|
+
+* 修订计划
+> https://github.com/IvanaXu/DecisionScience/projects
