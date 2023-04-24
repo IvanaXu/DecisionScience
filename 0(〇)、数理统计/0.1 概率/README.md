@@ -219,13 +219,17 @@ $P(N(t)=n)=e^{-\lambda t}\frac{(\lambda t)^k}{k!}$
 已知1小时内出生3个婴儿的概率，就表示为 $P(N(1)=3)$，那么接下来两个小时，一个婴儿都不出生的概率是0.25%，基本不可能发生。因为：
 $P(N(2)=0)=\frac{(3\times2)^0e^{-3\times2}}{0!} \approx 0.0025$
 接下来一个小时，至少出生两个婴儿的概率是80%：
-$\begin{align}
+
+$$
+\begin{align}
 P(N(1)\ge2) &= 1-P(N(1)=1)-P(N(1)=0) \\
 &= 1 - \frac{(3\times1)^1e^{-3\times1}}{1!} - \frac{(3\times1)^0e^{-3\times1}}{0!}\\
 &= 1 - 3e^{-3} - e^{-3} \\
 &= 1 - 4e^{-3} \\
 &\approx 0.8009
-\end{align}$
+\end{align}
+$$
+
 以下模拟之：
 
 ```python
@@ -345,9 +349,8 @@ plt.show() ## 画图
 <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/0.1.A.0-001.png" height=400>
 </p>
 
-简单来说，**中心极限定理讲的是，样本容量极大时，样本均值的抽样分布趋近于正态分布。这和样本所属的总体的分布的类型无关，样本所属总体的分布可以是正态分布，也可以不是。
+简单来说，**中心极限定理讲的是，样本容量极大时，样本均值的抽样分布趋近于正态分布。这和样本所属的总体的分布的类型无关，样本所属总体的分布可以是正态分布，也可以不是。**
 
-**
 ### 0.1.B 多元正态分布
 如果我们以显著的方式推广上述分布变量到更高维度，如正态分布，正态分布可以定义任意维度$d$。密度函数类似于一个山丘，它在分布的平均值处达到峰值，并且总体呈现为椭圆形。
 
@@ -366,34 +369,46 @@ plt.show() ## 画图
 > - 网站访问的时间间隔
 
 指数分布由其平均值 $\theta$（事件之间的平均时间）进行参数化。有时会使用 $\lambda=1/\theta$（事件发生的平均速率）对其进行参数化，其概率密度函数：
-$f(x)=\left\{
+
+$$
+f(x)=\left\{
 \begin{array}{rcl}
 \frac{1}{\theta}e^{-x/\theta} & & {x\ge0}\\
 0 & & {other}\\
-\end{array} \right.$
+\end{array} \right.
+$$
 
 指数分布的公式可以从泊松分布推断出来，引用上例，
 如果下一个婴儿要间隔时间 t ，就等同于 t 之内没有任何婴儿出生。
-$\begin{align}
+
+$$
+\begin{align}
 P(X > t) &= P(N(t)=0) = \frac{(\lambda t)^0e^{-\lambda t}}{0!}\\
 &= e^{-\lambda t}
-\end{align}$
+\end{align}
+$$
 
 反过来，事件在时间 t 之内发生的概率，就是1减去上面的值。
 $P(X \le t) = 1 - P(X \gt t) = 1 - e^{-\lambda t}$
 接下来15分钟，会有婴儿出生的概率是52.76%
-$\begin{align}
+
+$$
+\begin{align}
 P(X \le 0.25 ) &= 1 - e^{-3\times0.25}\\
 &\approx 0.5276
-\end{align}$
+\end{align}
+$$
 
 接下来的15分钟到30分钟，会有婴儿出生的概率是24.92%
-$\begin{align}
+
+$$
+\begin{align}
 P(0.25 \le X \le 0.5) &= P(X \le 0.5) - P(X \le 0.25)\\
 &= (1-e^{-3\times0.5})-(1-e^{-3\times0.25}) \\
 &= e^{-0.75} - e^{-1.5} \\
 &\approx 0.2492
-\end{align}$
+\end{align}
+$$
 
 以下模拟之：
 
