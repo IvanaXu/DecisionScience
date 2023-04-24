@@ -59,18 +59,17 @@ SQL 对大小写不敏感：SELECT 与 select 是相同的；
 #### 1.1.3.4 SQL拆解
 结构化查询语言SQL包含6个部分：
 
-（1）数据查询语言（DQL：Data Query Language）
-其语句，也称为“数据检索语句”，用以从表中获得数据，确定数据怎样在应用程序给出。保留字SELECT是DQL（也是所有SQL）用得最多的动词，其他DQL常用的保留字有WHERE，ORDER BY，GROUP BY和HAVING。这些DQL保留字常与其它类型的SQL语句一起使用。
-（2）数据操作语言（DML：Data Manipulation Language）
-其语句包括动词INSERT、UPDATE和DELETE。它们分别用于添加、修改和删除，
-（3）事务控制语言（TCL）
-它的语句能确保被DML语句影响的表的所有行及时得以更新。包括COMMIT（提交）命令、SAVEPOINT（保存点）命令、ROLLBACK（回滚）命令。
-（4）数据控制语言（DCL）
-它的语句通过GRANT或REVOKE实现权限控制，确定单个用户和用户组对数据库对象的访问。某些RDBMS可用GRANT或REVOKE控制对表单个列的访问，
-（5）数据定义语言（DDL）
-其语句包括动词CREATE,ALTER和DROP。在数据库中创建新表或修改、删除表（CREAT TABLE 或 DROP TABLE）；为表加入索引等。
-（6）指针控制语言（CCL）
-它的语句，像DECLARE CURSOR，FETCH INTO和UPDATE WHERE CURRENT用于对一个或多个表单独行的操作。
+（1）数据查询语言（DQL：Data Query Language）其语句，也称为“数据检索语句”，用以从表中获得数据，确定数据怎样在应用程序给出。保留字SELECT是DQL（也是所有SQL）用得最多的动词，其他DQL常用的保留字有WHERE，ORDER BY，GROUP BY和HAVING。这些DQL保留字常与其它类型的SQL语句一起使用。
+
+（2）数据操作语言（DML：Data Manipulation Language）其语句包括动词INSERT、UPDATE和DELETE。它们分别用于添加、修改和删除，
+
+（3）事务控制语言（TCL）它的语句能确保被DML语句影响的表的所有行及时得以更新。包括COMMIT（提交）命令、SAVEPOINT（保存点）命令、ROLLBACK（回滚）命令。
+
+（4）数据控制语言（DCL）它的语句通过GRANT或REVOKE实现权限控制，确定单个用户和用户组对数据库对象的访问。某些RDBMS可用GRANT或REVOKE控制对表单个列的访问，
+
+（5）数据定义语言（DDL）其语句包括动词CREATE,ALTER和DROP。在数据库中创建新表或修改、删除表（CREAT TABLE 或 DROP TABLE）；为表加入索引等。
+
+（6）指针控制语言（CCL）它的语句，像DECLARE CURSOR，FETCH INTO和UPDATE WHERE CURRENT用于对一个或多个表单独行的操作。
 
 最主要的，
 SQL (结构化查询语言)是用于执行查询的语法。但是 SQL 语言也包含用于更新、插入和删除记录的语法。
