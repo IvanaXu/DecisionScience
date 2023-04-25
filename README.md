@@ -13,7 +13,7 @@ What is Decision Science？
 *IvanaXu, 2020.12, Beijing*
 
 #### 版本修订:
-> 修订计划 ~ https://github.com/IvanaXu/DecisionScience/projects
+> 修订计划 https://github.com/IvanaXu/DecisionScience/projects
 > 
 > |版本号|作者|操作|日期|说明|
 > |-|-|-|-|-|
@@ -23,4 +23,4 @@ What is Decision Science？
 > |v1.1.1|Ivan|修订|2022-03-15|1、资源链接|
 > |v1.2.0|Ivan|修订|2023-03-01|1、Github push</p>2、敏感内容修订|
 > 
-> 希望修订过程添加更加新的思考 04.26
+> ~希望修订过程添加更加新的思考 04.26
