@@ -343,13 +343,17 @@ Commit 操作是用来将更改从工作副本到版本库。这个操作会修�
 ```
   TortoiseSVN称为checkout、TortoiseGit则保留Git的clone名称，即
 ```
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1627091008514-5074896a-7810-4bbb-b0c2-8d30736ace67.png#clientId=u97de0931-4572-4&from=paste&height=439&id=ua43330a1&originHeight=1096&originWidth=1498&originalType=binary&ratio=1&rotation=0&showTitle=false&size=210356&status=done&style=none&taskId=uf7b55bb9-678d-4591-9e93-1797540b746&title=&width=600)
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.2.4-000.png" width=600>
+</p>
 
 -  版本提交、版本记录  
 ```
   即commit，但一般我们会习惯性忽略`Message`，我们输入“Ivan ADD 0.txt”作为示例。
 ```
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1627091030565-569e58ae-cb35-4bb8-a2df-79d3fa69dba6.png#clientId=u97de0931-4572-4&from=paste&height=439&id=uaca822bf&originHeight=1096&originWidth=1498&originalType=binary&ratio=1&rotation=0&showTitle=false&size=232840&status=done&style=none&taskId=u36ff51a8-5940-4c7f-bfc1-7d80257cf0c&title=&width=600)
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.2.4-001.png" width=600>
+</p>
 
 值得注意的是，硬性要求commit需要Message时，也会规范Message内容，如下：
 > 1、type
@@ -380,27 +384,39 @@ Commit 操作是用来将更改从工作副本到版本库。这个操作会修�
 ```
   即update，Git下需pull。
 ```
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1627091097022-52ef8159-546d-448c-98db-c66c41a4e8cc.png#clientId=u97de0931-4572-4&from=paste&height=439&id=u6c888e9d&originHeight=1096&originWidth=1498&originalType=binary&ratio=1&rotation=0&showTitle=false&size=326312&status=done&style=none&taskId=u2189c56e-803f-45bb-828c-f35c01050e8&title=&width=600)
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.2.4-002.png" width=600>
+</p>
 
 -  版本记录  
 ```
   Show log，查看版本记录日志，可通过右键查看，
 ```
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1627091152870-953a3ace-94e4-43a4-8591-7b76c5f7bf9d.png#clientId=u97de0931-4572-4&from=paste&height=439&id=u93e04a15&originHeight=1096&originWidth=1498&originalType=binary&ratio=1&rotation=0&showTitle=false&size=173826&status=done&style=none&taskId=u9deeb1de-0e00-403c-abc7-5fb8369b7be&title=&width=600)
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.2.4-003.png" width=600>
+</p>
+
 我们尝试找回上述提交：
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1627091175710-ecb3063f-4949-47d4-b617-e2a8d2b7657a.png#clientId=u97de0931-4572-4&from=paste&height=439&id=u90189415&originHeight=1096&originWidth=1498&originalType=binary&ratio=1&rotation=0&showTitle=false&size=87526&status=done&style=none&taskId=uf909a2f7-d7aa-4a6a-8377-b4726a48390&title=&width=600)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.2.4-004.png" width=600>
+</p>
 
 -  版本回滚  
 ```
   选择对应版本，可选择回滚或其他操作。
 ```
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1627091198435-21f660b1-637e-42af-94dd-acd9643efc82.png#clientId=u97de0931-4572-4&from=paste&height=439&id=u80a045c9&originHeight=1096&originWidth=1498&originalType=binary&ratio=1&rotation=0&showTitle=false&size=145911&status=done&style=none&taskId=ue709e32b-befd-4cdd-bee6-7767e4041c1&title=&width=600)
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.2.4-005.png" width=600>
+</p>
 
 -  差异查看  
 ```
   一般，本地与远程版本一致时显示图标为绿色，有一定差异时会显示为红色，此时可通过右键Diff查看：
 ```
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1627091216907-b60774ec-c903-49dd-ba75-80d2f482fce5.png#clientId=u97de0931-4572-4&from=paste&height=439&id=u182328a6&originHeight=1096&originWidth=1498&originalType=binary&ratio=1&rotation=0&showTitle=false&size=175547&status=done&style=none&taskId=uec83c9d2-dbdc-41b4-bcf7-e309a48872d&title=&width=600)
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.2.4-006.png" width=600>
+</p>
 
 -  版本锁定 
 -  ...  
@@ -496,7 +512,10 @@ UTF-8的特点是对不同范围的字符使用不同长度的编码。对于0×
 - ASCII
 
 ASCII使用一个字节的其中7位二进制数来表示所有的大写和小写字母，数字0 到9、标点符号， 以及在美式英语中使用的特殊控制字符。
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1627091416083-74a9d2d1-02cc-43f5-97a1-42cbdd8ac888.png#clientId=u97de0931-4572-4&from=paste&height=712&id=u1e639155&originHeight=1424&originWidth=1926&originalType=binary&ratio=1&rotation=0&showTitle=false&size=1016637&status=done&style=none&taskId=ucd2910f8-5139-4fd4-a9f7-75176376949&title=&width=963)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.3.4-000.png" width=900>
+</p>
 
 - BOM
 
@@ -544,7 +563,10 @@ UTF-8不需要BOM来表明字节顺序，但可以用BOM来表明编码方式。
 ### 8.1.5 时间计划
 #### 8.1.5.1 项目计划表
 示例：
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1627091504637-436f0aa7-afb9-4f89-96e5-19ba0db39ffe.png#clientId=u97de0931-4572-4&from=paste&height=482&id=ubdbb6d72&originHeight=1166&originWidth=2904&originalType=binary&ratio=1&rotation=0&showTitle=false&size=365955&status=done&style=none&taskId=u93e22107-f4f6-4575-bff6-54e12a3bc13&title=&width=1200)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.5.1-000.png" width=1200>
+</p>
 
 #### 8.1.5.2 甘特图
 **mermaid**代码：
@@ -565,3 +587,6 @@ section 账单分期响应策略
 
 呈现效果：
 
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.5.2-000.png" width=1200>
+</p>
