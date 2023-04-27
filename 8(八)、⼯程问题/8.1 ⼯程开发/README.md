@@ -103,14 +103,20 @@
 #### 8.1.1.2 数据结构
 这里的数据结构指数据结构和算法，数据结构指的是一组数据的存储结构，算法指的是操作数据的一组方法。
 其思维导图如下：
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1627090325387-c6ab6362-4903-437f-9df2-b99f055b1834.png#clientId=u97de0931-4572-4&from=paste&height=2176&id=u4f8953ef&originHeight=3338&originWidth=1534&originalType=binary&ratio=1&rotation=0&showTitle=false&size=809336&status=done&style=none&taskId=u4502dfef-0473-44c6-aa96-050eb34a815&title=&width=1000)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.1.2-000.png">
+</p>
 
 如冒泡排序：
 > 冒泡排序/Bubble Sort，是一种计算机科学领域的较简单的排序算法。
 > 
 > 它重复地走访过要排序的元素列，依次比较两个相邻的元素，如果顺序（如从大到小、首字母从Z到A）错误就把他们交换过来。走访元素的工作是重复地进行直到没有相邻元素需要交换，也就是说该元素列已经排序完成。这个算法的名字由来是因为越小的元素会经由交换慢慢“浮”到数列的顶端（升序或降序排列），就如同碳酸饮料中二氧化碳的气泡最终会上浮到顶端一样，故名“冒泡排序”。
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1627090361666-0b83aa43-7491-4434-9c02-b26e190efe58.png#clientId=u97de0931-4572-4&from=paste&height=334&id=u90767073&originHeight=429&originWidth=514&originalType=binary&ratio=1&rotation=0&showTitle=false&size=195808&status=done&style=none&taskId=u618bcf5b-17f4-466c-b5cb-a3d88186864&title=&width=400)
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.1.2-001.png" height=400>
+</p>
+
 但这也只是理论，较难理解，以下我们举些简单的应用示例，或来自思维训练，或来自生产实际。
 
 - 示例1 分治：称金币、病毒检测
@@ -200,15 +206,9 @@ Google云计算三大论文，云计算奠基工程，分别是：
 
 - Bigtable
 
-[Bigtable_A Distributed Storage System for Structured Data.pdf](https://ivan-bucket-out-001.oss-cn-beijing.aliyuncs.com/out/DS/Bigtable_A%20Distributed%20Storage%20System%20for%20Structured%20Data.pdf)
-
 - FileSystem
 
-[The Google File System.pdf](https://ivan-bucket-out-001.oss-cn-beijing.aliyuncs.com/out/DS/The%20Google%20File%20System.pdf)
-
 - MapReduce
-
-[MapReduce_Simplified Data Processing on Large Clusters.pdf](https://ivan-bucket-out-001.oss-cn-beijing.aliyuncs.com/out/DS/MapReduce_Simplified%20Data%20Processing%20on%20Large%20Clusters.pdf)
 
 其中，MapReduce是最经典的云计算技术，我们可以在Python中简单体验。
 
@@ -228,9 +228,13 @@ print(L0, L1, L2)
 ```
 
 > 详见：
+>
 > 《Bigtable：A Distributed Storage System for Structured Data》
+>
 > 《The Google File System》
+>
 > 《MapReduce：Simplified Data Processing on Large Clusters》
+>
 
 
 ### 8.1.2 版本控制
@@ -263,17 +267,28 @@ $代码量n行、合计修改m次、每次修改量k行，\\
 Git 是一个开源的分布式版本控制系统，用于敏捷高效地处理任何或小或大的项目。
 Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。
 Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1627090660123-a8266daa-6059-4a5f-9eef-1b8ff69c4b58.png#clientId=u97de0931-4572-4&from=paste&height=185&id=u86691ac8&originHeight=158&originWidth=512&originalType=binary&ratio=1&rotation=0&showTitle=false&size=59765&status=done&style=none&taskId=ufd38cefc-7446-4c5e-88e3-4b4d1da641e&title=&width=600)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.2.2-000.png" width=600>
+</p>
 
 - Git常见命令
 - [github-git-cheat-sheet.pdf](https://ivan-bucket-out-001.oss-cn-beijing.aliyuncs.com/out/DS/github-git-cheat-sheet.pdf)
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1627090704498-00e21b60-baf3-46d5-8eec-19271712bc94.png#clientId=u97de0931-4572-4&from=paste&height=1035&id=ue0f88fdf&originHeight=1584&originWidth=1224&originalType=binary&ratio=1&rotation=0&showTitle=false&size=1047152&status=done&style=none&taskId=u8e8d1f3e-7d1b-4d9d-b800-749e0617bbf&title=&width=800)
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1627090724715-2fdf2a11-c78f-4838-9262-52ee284de9b0.png#clientId=u97de0931-4572-4&from=paste&height=1035&id=u54917cb7&originHeight=1584&originWidth=1224&originalType=binary&ratio=1&rotation=0&showTitle=false&size=911768&status=done&style=none&taskId=ua7eabf2c-a3b2-43b9-aead-aa2b0ec8089&title=&width=800)
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.2.2-001.png">
+</p>
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.2.2-002.png">
+</p>
 
 - Git In SAS EG
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1627090772509-4a2d8c66-0ac9-4e59-9e0a-f4fb61c894a5.png#clientId=u97de0931-4572-4&from=paste&height=226&id=u9e07c914&originHeight=249&originWidth=883&originalType=binary&ratio=1&rotation=0&showTitle=false&size=18806&status=done&style=none&taskId=uf858ec05-1e8e-4129-a4ea-f417c899c9b&title=&width=800)
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.2.2-003.png" width=600>
+</p>
+
 SAS EG中红框部分（若有配置）即为Git功能，编写代码后点击提交可进行代码版本Git管理。
 
 #### 8.1.2.3 SVN
