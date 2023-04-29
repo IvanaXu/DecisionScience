@@ -213,21 +213,27 @@ APS则记录了申请审批整个过程的信息，主键：申请书条形码�
 
 #### 3.1.3.2 人行示例
 人行信用报告样例，这里版本为二代，标注部分为与一代差异，主要为新增和调整，整体数据结构一致。
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626963731318-a3f6b11f-4704-4fa4-a32f-9a9c938349c5.png#clientId=u9c51c131-a4f7-4&from=paste&height=1414&id=ua1e21367&originHeight=1683&originWidth=1190&originalType=binary&ratio=1&size=573156&status=done&style=none&taskId=u4144593c-818d-456c-bd1e-85ed1fbcd91&width=1000)
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626963762793-6bf6827d-5bae-48fb-bf45-1c369452aced.png#clientId=u9c51c131-a4f7-4&from=paste&height=1414&id=ub1908eb6&originHeight=1683&originWidth=1190&originalType=binary&ratio=1&size=480442&status=done&style=none&taskId=u1c7ee966-8fe8-4c1c-987c-f121dca38a1&width=1000)
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626963788034-2f780547-5327-40c8-b232-893c9f5f8e96.png#clientId=u9c51c131-a4f7-4&from=paste&height=1414&id=uba13318d&originHeight=1683&originWidth=1190&originalType=binary&ratio=1&size=519424&status=done&style=none&taskId=uc887b405-be16-4320-8a08-99d8924ff32&width=1000)
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626963808672-f0711bb0-1543-454d-bd22-8b0b03fdb5a4.png#clientId=u9c51c131-a4f7-4&from=paste&height=1414&id=ud327bb03&originHeight=1683&originWidth=1190&originalType=binary&ratio=1&size=585343&status=done&style=none&taskId=u4639bd54-9f6a-412d-9430-9a55f04737c&width=1000)
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626963843622-857138cc-fad1-4761-8d96-c8baded62104.png#clientId=u9c51c131-a4f7-4&from=paste&height=1414&id=ue568c48c&originHeight=1683&originWidth=1190&originalType=binary&ratio=1&size=598166&status=done&style=none&taskId=ucd0bffd7-b03a-46e8-a81a-9fa8de32709&width=1000)
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626963863243-af474dd8-151d-47d8-b298-9f4a48147ed7.png#clientId=u9c51c131-a4f7-4&from=paste&height=1414&id=u7950907e&originHeight=1683&originWidth=1190&originalType=binary&ratio=1&size=545042&status=done&style=none&taskId=u6181b91e-d219-43c5-bfe5-3249f756730&width=1000)
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626963883352-a0faa37a-9dad-42d6-9e39-de0893ecae1b.png#clientId=u9c51c131-a4f7-4&from=paste&height=1414&id=u92ec7a54&originHeight=1683&originWidth=1190&originalType=binary&ratio=1&size=569660&status=done&style=none&taskId=ue3e0c83d-a52e-45cd-b6e9-caee3d18da6&width=1000)
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626963902656-73c1ba24-b3c6-44c8-b81d-295cf171f15b.png#clientId=u9c51c131-a4f7-4&from=paste&height=1414&id=u8f9e9efa&originHeight=1683&originWidth=1190&originalType=binary&ratio=1&size=555560&status=done&style=none&taskId=uff531888-5c82-42f4-b833-3ca4b9e6cda&width=1000)
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626963922217-6d80de21-fccb-4fcb-8d72-7a33af7db357.png#clientId=u9c51c131-a4f7-4&from=paste&height=1414&id=u3f5e65eb&originHeight=1683&originWidth=1190&originalType=binary&ratio=1&size=656603&status=done&style=none&taskId=u5c41feab-c5b0-4d4f-8d90-9061675d776&width=1000)
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626963941148-eca59591-b6fa-40e9-9e8f-2c18b87ddacc.png#clientId=u9c51c131-a4f7-4&from=paste&height=1414&id=u49c1f56f&originHeight=1683&originWidth=1190&originalType=binary&ratio=1&size=567156&status=done&style=none&taskId=u8b3f506e-d21a-48e3-a687-006d72fe5d6&width=1000)
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626963959076-9b7957d1-822b-409c-949f-fe5d365b2b0b.png#clientId=u9c51c131-a4f7-4&from=paste&height=1414&id=u4da96b39&originHeight=1683&originWidth=1190&originalType=binary&ratio=1&size=553472&status=done&style=none&taskId=u6e76dc34-ed1b-4aee-8710-091e5ff1963&width=1000)
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626963975081-b28989c9-394c-46af-baeb-8adc28ac5c99.png#clientId=u9c51c131-a4f7-4&from=paste&height=1414&id=u028d272f&originHeight=1683&originWidth=1190&originalType=binary&ratio=1&size=481487&status=done&style=none&taskId=u7572fb8d-3e08-450b-b2b0-5d1999a6536&width=1000)
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626963990607-1777ad9d-dc14-4eba-8ec2-119659e52593.png#clientId=u9c51c131-a4f7-4&from=paste&height=1414&id=u0e461b33&originHeight=1683&originWidth=1190&originalType=binary&ratio=1&size=517582&status=done&style=none&taskId=ucf9f8939-d40c-4fd2-a1b1-f7ec4c5ab95&width=1000)
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626964012175-c89f57aa-f142-4cec-b95d-cafd79598d42.png#clientId=u9c51c131-a4f7-4&from=paste&height=1414&id=uac380c85&originHeight=1683&originWidth=1190&originalType=binary&ratio=1&size=426644&status=done&style=none&taskId=u4f5eefa0-3ac0-4f8e-843e-3b19626d78c&width=1000)
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626964029913-f9824772-3814-4ccb-9398-191ce3c74c94.png#clientId=u9c51c131-a4f7-4&from=paste&height=1414&id=u24a4ccc0&originHeight=1683&originWidth=1190&originalType=binary&ratio=1&size=580704&status=done&style=none&taskId=ue5a51112-65bf-4a36-a9d7-5860af31eef&width=1000)
+
+<p align="center">
+  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-001.png" width=1000>
+  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-002.png" width=1000>
+  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-003.png" width=1000>
+  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-004.png" width=1000>
+  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-005.png" width=1000>
+  
+  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-006.png" width=1000>
+  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-007.png" width=1000>
+  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-008.png" width=1000>
+  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-009.png" width=1000>
+  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-010.png" width=1000>
+  
+  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-011.png" width=1000>
+  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-012.png" width=1000>
+  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-013.png" width=1000>
+  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-014.png" width=1000>
+  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-015.png" width=1000>
+</p>
+
 
 #### 3.1.3.3 人行评分
 人行评分只是一个通俗名称，人行报告上称其为“数字解读”，如下：
