@@ -130,48 +130,84 @@ APS则记录了申请审批整个过程的信息，主键：申请书条形码�
 #### 3.1.3.1 数据概况
 > 1、个人基本信息
 （1）身份信息
+
 （2）配偶信息
+
 （3）居住信息
+
 （4）职业信息
+
 > 
 2、信息概要
 （1）信用提示 信用提示
+
 （2）信用提示 中征信分数
+
 （3）逾期及违约信息概要 呆账、资产处置、保证人代偿信息概要
+
 （4）逾期及违约信息概要 逾期（透支）信息汇总
+
 （5）授信及负债信息概要 未结清贷款信息汇总
+
 （6）授信及负债信息概要 未销户贷记卡信息汇总
+
 （7）授信及负债信息概要 未销户准贷记卡信息汇总
+
 （8）授信及负债信息概要 对外担保信息汇总
+
 > 
 3、信贷交易信息明细
 （1）资产处置信息
+
 （2）保证人代偿信息
+
 （3）贷款明细信息
+
 （4）贷记卡明细信息
+
 （5）准贷记卡明细信息
+
 （6）担保信息 对外贷款担保信息
+
 （7）担保信息 对外信用卡担保信息
+
 （8）5年逾期信息
+
 > 
 4、公共信息明细
 （1）欠税记录
+
 （2）法院民事判决记录
+
 （3）法院强制执行记录
+
 （4）行政处罚记录
+
 （5）住房公积金参缴记录
+
 （6）养老保险金缴存记录
+
 （7）养老保险金发放记录
+
 （8）低保救助记录
+
 （9）执业资格记录
+
 （10）行政奖励记录
+
 （11）车辆交易和抵押记录
+
 （12）电信缴费记录
+
 > 
 5、声明信息
+
 6、异议标注
+
 7、查询记录
+
 （1）查询记录汇总
+
 （2）信贷审批查询记录明细
 
 
@@ -197,7 +233,7 @@ APS则记录了申请审批整个过程的信息，主键：申请书条形码�
 人行评分只是一个通俗名称，人行报告上称其为“数字解读”，如下：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.3-000.png" height=1000>
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.3-000.png" width=1000>
 </p>
 
 即该客户因存在逾期还款记录影响，当前人行评分为468，人群相对位置10%-20%，较低。
@@ -231,23 +267,29 @@ APS则记录了申请审批整个过程的信息，主键：申请书条形码�
 由于人行评分形成了统一行业标准，详见最新版本《个人信用报告数字解读-验证几率表》，如2013.12-2015.12日期示例：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.3-001.png" height=1000>
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.3-001.png" width=1000>
 </p>
 
 那么，其评分占比分布也是观测/对比客群结构最直观的方法，如下：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.3-002.png" height=1000>
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.3-002.png" width=1000>
 </p>
 
 #### 3.1.3.4 数据应用
 人行信用报告样例（已数据加密）：
 
 （1）贷款
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626964181559-5ddf9450-ec7d-4c97-bcc5-2b70a6b71553.png#clientId=u9c51c131-a4f7-4&from=paste&height=441&id=u3e6d61ae&originHeight=570&originWidth=776&originalType=binary&ratio=1&size=134380&status=done&style=none&taskId=uf27ea947-b904-4113-9908-245c14c2cd7&width=600)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.4-000.png" width=600>
+</p>
 
 （2）贷记卡
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626964209323-2b9c483d-7c35-4ec5-98f1-45b10bde1f62.png#clientId=u9c51c131-a4f7-4&from=paste&height=377&id=u999e0429&originHeight=1286&originWidth=2044&originalType=binary&ratio=1&size=299023&status=done&style=none&taskId=u100da062-6cbe-4f61-96b5-249febe0b7e&width=600)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.4-001.png" width=600>
+</p>
 
 如例，该客户有房有车，相关贷款、贷记卡历史未有逾期；现持32.2W的车贷月应还13981，126W的房贷月应还8445，**有一定的资质**；有ZF银行10W授信贷记卡，且历史最大额度使用率为30.3%，**但近6个月无使用**，另有SE银行8.5W授信贷记卡，近6个月平均使用24445，当前额度使用率100%，但本月实还、应还款均为12292，**推测近6个月消费自ZF银行转移SE银行，且在SE银行新办有灵账分期业务**。
 _注：ZF、SE为人行报告商业银行代号._
@@ -290,8 +332,14 @@ _注：ZF、SE为人行报告商业银行代号._
 ### 3.1.5 总行数据
 一般银行总行各核心业务，主要包括：客户信息、交易行为、渠道数据、理财业务等。
 如下图示例，其数据盘点：
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626964274742-f6493487-0d50-4b17-850c-725ca9f1c3e8.png#clientId=u9c51c131-a4f7-4&from=paste&height=1293&id=u436520bf&originHeight=1280&originWidth=990&originalType=binary&ratio=1&size=251611&status=done&style=none&taskId=u1f7e2175-fc3e-4c5c-bdfd-e7c4689fe87&width=1000)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.5.0-000.png" width=1000>
+</p>
+
 以**交易行为**为例，一般涵盖存取现金、支付转账、内部转账、网上支付、日常消费等，以每户每日逐条记录的交易流水存在，具体到时间和金额。
 若进一步细化，交易行为可分为：
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626964309505-874b47f2-a17f-4e67-81ef-d24e5c1721b7.png#clientId=u9c51c131-a4f7-4&from=paste&height=483&id=u132fc160&originHeight=966&originWidth=1280&originalType=binary&ratio=1&size=612449&status=done&style=none&taskId=u7e0c6e6b-ff6b-4a23-bdeb-fc1b00953b8&width=640)
 
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.5.0-001.png" width=640>
+</p>
