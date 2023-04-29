@@ -195,7 +195,10 @@ APS则记录了申请审批整个过程的信息，主键：申请书条形码�
 
 #### 3.1.3.3 人行评分
 人行评分只是一个通俗名称，人行报告上称其为“数字解读”，如下：
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626964057004-18c17007-e75e-40fc-9335-ff0a600c9120.png#clientId=u9c51c131-a4f7-4&from=paste&height=168&id=uc7488bb7&originHeight=280&originWidth=1662&originalType=binary&ratio=1&size=93136&status=done&style=none&taskId=uabf72d00-7ac6-4b9c-809c-df565b9765b&width=1000)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.3-000.png" height=1000>
+</p>
 
 即该客户因存在逾期还款记录影响，当前人行评分为468，人群相对位置10%-20%，较低。
 如《征信系统数据查询接口规格说明(信用报告数字解读)》所示：
@@ -226,10 +229,16 @@ APS则记录了申请审批整个过程的信息，主键：申请书条形码�
 
 
 由于人行评分形成了统一行业标准，详见最新版本《个人信用报告数字解读-验证几率表》，如2013.12-2015.12日期示例：
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626964112978-f484467f-7637-4c11-b094-172b87ed6eaa.png#clientId=u9c51c131-a4f7-4&from=paste&height=1414&id=u0687b812&originHeight=1683&originWidth=1190&originalType=binary&ratio=1&size=646327&status=done&style=none&taskId=u9e25a754-3200-47b0-94dd-3e1b6ffc1fa&width=1000)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.3-001.png" height=1000>
+</p>
 
 那么，其评分占比分布也是观测/对比客群结构最直观的方法，如下：
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626964148726-91996fb4-c40e-42a4-8943-4983ad45f0db.png#clientId=u9c51c131-a4f7-4&from=paste&height=402&id=u826dcf5c&originHeight=804&originWidth=1960&originalType=binary&ratio=1&size=332322&status=done&style=none&taskId=uedd9952b-48c5-49fc-b1a2-76f0c402680&width=980)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.3-002.png" height=1000>
+</p>
 
 #### 3.1.3.4 数据应用
 人行信用报告样例（已数据加密）：
