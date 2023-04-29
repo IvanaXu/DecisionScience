@@ -55,7 +55,11 @@
 
 ### 3.1.2 发卡核心数据
 #### 3.1.2.1 业务流程
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626963580194-d79e44d4-dc38-461f-9604-fe8796cc1ee2.png#clientId=u9c51c131-a4f7-4&from=paste&height=419&id=u29143182&originHeight=838&originWidth=2170&originalType=binary&ratio=1&size=156557&status=done&style=none&taskId=u9f894ba2-139d-4d76-bd7e-13bbbcbea01&width=1085)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.2.1-000.png" width=1000>
+</p>
+
 上述整个信用卡业务流程在银联发卡核心系统上面流转。
 
 PS：当然这里的发卡核心系统，还可以是通联、江融信、行内自建等等，**本文仅指向银联**。
@@ -114,7 +118,10 @@ APS则记录了申请审批整个过程的信息，主键：申请书条形码�
 
 
 #### 3.1.2.2 数据框架
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626963650181-3efb1363-eea7-4cc7-bd49-e7de9e399e26.png#clientId=u9c51c131-a4f7-4&from=paste&height=904&id=ub178dff9&originHeight=1808&originWidth=2086&originalType=binary&ratio=1&size=294947&status=done&style=none&taskId=u8707d6fd-3b98-41f6-8398-8348922464b&width=1043)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.2.2-000.png" width=1000>
+</p>
 
 ### 3.1.3 人行征信数据
 人行信用报告是人行征信服务中心全面记录个人信用活动，反映个人信用状况的文件，是个人信用信息基础数据库的基础产品。包含个人基本信息、信贷交易信息明细等。
