@@ -1374,8 +1374,9 @@ PROC FREQ DATA = SASHELP.CLASS;
     FORMAT HEIGHT HEIGHT.;
 RUN;
 ```
-
-![截屏2020-12-13 下午1.55.23.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1617108425703-88284b4b-adb6-4de7-b432-029450c08cc5.png#height=542&id=zWXkV&originHeight=1182&originWidth=872&originalType=binary&ratio=1&rotation=0&showTitle=false&size=144669&status=done&style=none&title=&width=400)
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.7.0-000.png" width=400>
+</p>
 
 #### ～PROC SUMMARY
 
@@ -1397,7 +1398,9 @@ RUN;
 RUN; */
 ```
 
-![截屏2020-12-13 下午2.03.21.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1617108475426-ccae74bd-c6fe-4ef0-8e7a-1ee558f2611a.png#height=210&id=UdHPC&originHeight=458&originWidth=872&originalType=binary&ratio=1&rotation=0&showTitle=false&size=56378&status=done&style=none&title=&width=400)
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.7.0-001.png" width=400>
+</p>
 
 #### ～哈希表HASH连接
 
@@ -1467,7 +1470,9 @@ PROC PRINT DATA = APP_ALL_COMB;
 RUN;
 ```
 
-![截屏2020-12-13 下午2.32.56.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1617108517050-a151d967-5ca4-4e68-a207-4ed63bebb27e.png#height=213&id=XzsHa&originHeight=458&originWidth=860&originalType=binary&ratio=1&rotation=0&showTitle=false&size=37439&status=done&style=none&title=&width=400)
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.7.0-002.png" width=400>
+</p>
 
 #### ～Lift提升度
 
@@ -1553,7 +1558,9 @@ ODS GRAPHICS OFF;
 * Y2AXIS 次坐标;
 ```
 
-![截屏2020-12-13 下午2.47.06.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1617108550703-ec287bce-714f-454f-9a3f-56b656991c4a.png#height=303&id=IARQW&originHeight=934&originWidth=1234&originalType=binary&ratio=1&rotation=0&showTitle=false&size=137620&status=done&style=none&title=&width=400)
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.7.0-003.png" width=400>
+</p>
 
 #### ～自制数据集
 
@@ -1571,7 +1578,9 @@ PROC PRINT DATA = VARL;
 RUN;
 ```
 
-![截屏2020-12-13 下午2.51.49.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1617108583456-6807048d-acfe-43a7-94b7-fe81e08108d1.png#height=113&id=XweUh&originHeight=206&originWidth=728&originalType=binary&ratio=1&rotation=0&showTitle=false&size=25837&status=done&style=none&title=&width=400)
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.7.0-004.png" width=400>
+</p>
 
 #### ～宏变量工厂
 
@@ -1761,7 +1770,9 @@ RDAT1=20200102 RDAT2=20200108 _ERROR_=0 _N_=3
 
 ```
 
-![截屏2020-12-15 下午2.13.38.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1617108801721-3b438cc6-fccb-4c16-b353-0f188687cc7f.png#height=457&id=cXkBA&originHeight=1036&originWidth=906&originalType=binary&ratio=1&rotation=0&showTitle=false&size=120989&status=done&style=none&title=&width=400)
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.7.0-005.png" width=400>
+</p>
 
 显然，我们在RAMT1、RDAT1上把要求逻辑实现了一遍，且PUT出来了DATA执行前后`_ALL_`的变化。
 这些输出意味着什么呢？在回答此问题之前，需要先了解SAS数据步的编译。
