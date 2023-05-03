@@ -823,21 +823,35 @@ RUN;
 
 
 ### 1.2.4 SAS Help使⽤
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626893328447-bfcfdf60-59e4-4e02-a9a6-a32c74ea23ad.png#clientId=u53ed7388-4875-4&from=paste&height=559&id=u5151e745&originHeight=1176&originWidth=1682&originalType=binary&ratio=1&rotation=0&showTitle=false&size=430374&status=done&style=none&taskId=uf849d8f1-8f1c-4009-8277-51bf7442e62&title=&width=800)
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.4.0-000.png" width=800>
+</p>
+
 如上SAS书籍，专门强调了SAS Help and Documentation的重要性。
 使用方法也有很多：
+
 #### 1.2.4.1 通篇阅读
 相信这个跟全文背诵一样恐怖，但跟着官方文档走，可更全面感受SAS产品设计。
 如Contents就提供这样的阅读目录，可一览SAS Products.
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626893343412-81521128-ead9-4172-9e5a-ad94f2559468.png#clientId=u53ed7388-4875-4&from=paste&height=407&id=uca8150f9&originHeight=1096&originWidth=1076&originalType=binary&ratio=1&rotation=0&showTitle=false&size=98987&status=done&style=none&taskId=u9657c826-5a9f-41c4-a714-8aef397907a&title=&width=400)
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.4.1-000.png" width=400>
+</p>
+
 #### 1.2.4.2 关键字搜索
 相信是最常用的方法，搜索框输入关键字，快速搜索。
 如输入`substr`
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626893369357-9d4992ee-5ee2-4d51-852f-69b93df9c86f.png#clientId=u53ed7388-4875-4&from=paste&height=407&id=ueeca00f8&originHeight=1096&originWidth=1076&originalType=binary&ratio=1&rotation=0&showTitle=false&size=103615&status=done&style=none&taskId=u2f71714c-dc2b-425f-8010-d4fd3b9cf46&title=&width=400)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.4.2-000.png" width=400>
+</p>
 
 当然，也有缺点，尤其个别奇奇怪怪的关键字，如输入`index`
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626893396364-801e8f51-fb83-4be6-a810-002039b06891.png#clientId=u53ed7388-4875-4&from=paste&height=407&id=u10659ff6&originHeight=1096&originWidth=1076&originalType=binary&ratio=1&rotation=0&showTitle=false&size=74832&status=done&style=none&taskId=u83ac676c-9c1a-46d2-a447-3b9134991e2&title=&width=400)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.4.2-001.png" width=400>
+</p>
+
 搜索结果令人无所适从。
 #### 1.2.4.3 归纳体系
 关键字搜索非常有用，但当你忘记关键字拼写、拼错关键字甚至想要某某功能关键字时，归纳体系更加便捷。
@@ -880,13 +894,25 @@ operates on values to limit the number of digits
 operates on variables and returns names, types, lengths, informats, labels, and other variable information
 
 Array为例，共计如下4个函数，
-![截屏2020-12-09 下午2.14.35.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1617158425486-9c7c23cb-9820-4e98-bb26-46be3998a1d6.png#height=73&id=uPd8U&originHeight=208&originWidth=1134&originalType=binary&ratio=1&rotation=0&showTitle=false&size=27053&status=done&style=none&title=&width=400)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.4.3-000.png" width=400>
+</p>
+
 点进DIM函数，也能发现所在Category。
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626893464563-9f775334-ed38-49aa-8b2a-4b672e8acabf.png#clientId=u53ed7388-4875-4&from=paste&height=309&id=uc96d6190&originHeight=636&originWidth=824&originalType=binary&ratio=1&rotation=0&showTitle=false&size=25465&status=done&style=none&taskId=u1e125a09-5cd1-4e7d-b135-8351a4c3ace&title=&width=400)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.4.3-001.png" width=400>
+</p>
+
 （2）See Also
 一般地，查看某函数时，文末都有一段See Also，带出类似函数。
 以DIM函数为例，就把该Category下的其他类似函数链接出来。
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626893486220-4859d2f8-c469-42b9-9217-10b07a29da98.png#clientId=u53ed7388-4875-4&from=paste&height=309&id=ufbcab4f5&originHeight=636&originWidth=824&originalType=binary&ratio=1&rotation=0&showTitle=false&size=22183&status=done&style=none&taskId=u8558badf-8830-47df-b58b-4ed55756ed6&title=&width=400)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.4.3-002.png" width=400>
+</p>
+
 #### 1.2.4.4 总结
 整体来说，SAS Help and Documentation的编写还是有一定水平的，始终是最主要的SAS学习文档。需要使用者在应用过程中，不断学习总结，相信SAS水平会有更加长足的进步。此外，除了SAS Help外，剩余资源主要聚焦在人大经济论坛部分早期文档。这里可以看到，SAS整体开发社区还是比较小，后续笔者将再做整理，欢迎持续关注。
 如有更新，可能会在 [https://github.com/IvanaXu/DataSAS](https://github.com/IvanaXu/DataSAS)
