@@ -920,7 +920,10 @@ Array为例，共计如下4个函数，
 ### 1.2.5 SAS IDE
 #### 1.2.5.1 SAS-BASE
 Win + R，输入sas即可调出SAS BASE，页面如下：
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626893617204-c6112b34-7e80-42fa-8dca-144e134a80c8.png#clientId=udedc65e2-ea0b-4&from=paste&height=1161&id=u41009135&originHeight=2322&originWidth=3830&originalType=binary&ratio=1&rotation=0&showTitle=false&size=363066&status=done&style=none&taskId=uaa7f688e-ce5b-48bd-96db-23f20d8071e&title=&width=1915)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.1-000.png">
+</p>
 
 - 逻辑库-浏览创建SAS库管理、浏览SAS库文件（移动、复制、更名和删除）、建立非SAS文件的快捷方式；
 - 输出结果-以树形结构展示提交SAS程序输出的各项结果，查看、存储、打印或删除各项结果的内容；
@@ -933,50 +936,106 @@ SAS Enterprise Guide基本使用教程，特指远程连接模式：
 （1）桌面双击打开或开始菜单中打开SAS Enterprise Guide 7.1(64-bit)；
 （2）用户登录
 （2.1）若提示情况如下：
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626893633194-9de81f7c-8902-4832-ae47-e151502c3e60.png#clientId=udedc65e2-ea0b-4&from=paste&height=345&id=u37cd31f0&originHeight=488&originWidth=708&originalType=binary&ratio=1&rotation=0&showTitle=false&size=47689&status=done&style=none&taskId=u4bfe322c-f269-45cd-a789-797cc17b512&title=&width=500)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.2-000.png" width=500>
+</p>
+
 输入用户名、密码，点击“确认”即可。
 （2.2）若提示情况如下：
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626893643871-c224a42c-378e-4bc9-b822-6a3e49f23f99.png#clientId=udedc65e2-ea0b-4&from=paste&height=154&id=u6d1c2390&originHeight=280&originWidth=726&originalType=binary&ratio=1&rotation=0&showTitle=false&size=49128&status=done&style=none&taskId=ud2149b8c-43f8-455c-8913-2c1fead434b&title=&width=400)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.2-001.png" width=500>
+</p>
+
 点击“是”，进入连接属性，如下。
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626893666428-5f96a088-8e44-4820-85c9-c29347e3bd81.png#clientId=udedc65e2-ea0b-4&from=paste&height=337&id=uf531106b&originHeight=412&originWidth=734&originalType=binary&ratio=1&rotation=0&showTitle=false&size=47309&status=done&style=none&taskId=u31428f1a-9d8f-4ca6-bee4-bf7c98c4b6f&title=&width=600)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.2-002.png" width=500>
+</p>
+
 （2.3）若无配置文件列表，则点击“添加”。
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626893685264-2a3cc0c9-c154-49cf-ae32-fb8137c64abe.png#clientId=udedc65e2-ea0b-4&from=paste&height=376&id=u5a9818ed&originHeight=432&originWidth=460&originalType=binary&ratio=1&rotation=0&showTitle=false&size=35100&status=done&style=none&taskId=u367aeefd-402c-47a5-8043-110b238e1ab&title=&width=400)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.2-003.png" width=500>
+</p>
+
 （2.4）在设置中填写名称（可自定义），远程连接服务器的地址、端口、登录的用户名、密码等。填写完毕后点击“保存”，后续步骤与已有配置文件的步骤（2.5）一致。
 （2.5）若已有配置文件，则选择给定的特定文件，点击“设为活动”，将弹出用户登录界面。
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626893729478-e5246727-7705-4bdd-907a-fe56a51eef14.png#clientId=udedc65e2-ea0b-4&from=paste&height=342&id=uf4ffa5a1&originHeight=384&originWidth=674&originalType=binary&ratio=1&rotation=0&showTitle=false&size=46927&status=done&style=none&taskId=u0420c585-278d-49b7-b681-8102e50f254&title=&width=600)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.2-004.png" width=500>
+</p>
+
 输入给定的用户名和密码，点击“确定”。
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626893783382-bf961df2-f727-4f03-9628-3fb4e582b261.png#clientId=udedc65e2-ea0b-4&from=paste&height=336&id=u21caee47&originHeight=444&originWidth=792&originalType=binary&ratio=1&rotation=0&showTitle=false&size=55528&status=done&style=none&taskId=ua513e8d1-8b5f-4f2d-80e9-2aec227b629&title=&width=600)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.2-005.png" width=500>
+</p>
+
 点击关闭后即可。
 （3）程序编写
 （3.1）点击左上角文件，新建，程序。
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626893824688-35168cb1-0341-4861-82b4-b7cb303bbdc4.png#clientId=udedc65e2-ea0b-4&from=paste&height=478&id=u5a85cb04&originHeight=564&originWidth=472&originalType=binary&ratio=1&rotation=0&showTitle=false&size=115722&status=done&style=none&taskId=u843ae4ed-45d6-4dc8-aa64-2fb1e72d240&title=&width=400)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.2-006.png" width=500>
+</p>
+
 （3.2）在右侧增强型编辑器区域编写代码，如下。
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626893845711-4dae1fa3-a256-48cf-9b60-7117ff5d4413.png#clientId=udedc65e2-ea0b-4&from=paste&height=480&id=ub038e6bc&originHeight=1024&originWidth=1280&originalType=binary&ratio=1&rotation=0&showTitle=false&size=95372&status=done&style=none&taskId=u2e528ab3-c80f-4427-bd3b-7c2593a311e&title=&width=600)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.2-007.png" width=500>
+</p>
+
 （3.3）代码编写完毕后，点击“运行”，或通过键盘快捷键F3或F8，运行程序。
 （3.4）若需执行部分代码，选中要执行部分的代码，点击“运行”，或通过键盘快捷键F3或F8，运行程序。
 #### 1.2.5.3 SAS-EM
 此部分教程选自《SAS EM使用介绍——刘洋洋》
 远程连接模式下，
 （1）基本操作
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626893869342-35ef680d-5cea-4999-a44c-bd1ea3e8403c.png#clientId=udedc65e2-ea0b-4&from=paste&height=557&id=ufebbb699&originHeight=638&originWidth=458&originalType=binary&ratio=1&rotation=0&showTitle=false&size=40933&status=done&style=none&taskId=uf9880d09-e5aa-4269-8319-1a7412e8390&title=&width=400)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.3-000.png" width=500>
+</p>
+
 （2）新建项目
 登录后界面如下图，如果已经建立过项目则选择“打开项目”，新建项目则选择“新建项目”，注意：新建项目请放置在个人目录下。
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626893884983-9ade8b88-3483-4829-83cd-6686579842f4.png#clientId=udedc65e2-ea0b-4&from=paste&height=410&id=u98bb6cc9&originHeight=382&originWidth=559&originalType=binary&ratio=1&rotation=0&showTitle=false&size=28274&status=done&style=none&taskId=u8a4299fb-343c-4f3e-9f37-8ac52679dea&title=&width=600)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.3-001.png" width=500>
+</p>
+
 （3）新建逻辑库
 类似sas base中的“libname”功能，加载了逻辑库，才能够提取数据。
 加载逻辑库的两种方式如下图。其中逻辑库路径即分析数据的目录。
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626893913499-8c81691e-54e2-4b7e-bda2-e496e48e9696.png#clientId=udedc65e2-ea0b-4&from=paste&height=345&id=ua7b7f3c8&originHeight=252&originWidth=292&originalType=binary&ratio=1&rotation=0&showTitle=false&size=11012&status=done&style=none&taskId=u362b6c4b-7671-4ba6-ab1b-dc24ba726a4&title=&width=400)
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626893930724-c3a16f8a-2256-450f-8418-47f63910eb4f.png#clientId=udedc65e2-ea0b-4&from=paste&height=342&id=u211c0f96&originHeight=396&originWidth=463&originalType=binary&ratio=1&rotation=0&showTitle=false&size=21676&status=done&style=none&taskId=ubc7b8440-aaec-48a0-9aef-90e2f7bcaf4&title=&width=400)
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.3-002.png" width=500>
+</p>
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.3-003.png" width=500>
+</p>
+
 （4）创建流程图、创建数据源
 创建方式如下图，新创建的流程图是空白的。
 创建数据源后才可以对数据进行分析。
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626893946668-aa014520-0d14-4d9a-b82c-bf83439823db.png#clientId=udedc65e2-ea0b-4&from=paste&height=351&id=uae8a8ebf&originHeight=242&originWidth=276&originalType=binary&ratio=1&rotation=0&showTitle=false&size=10713&status=done&style=none&taskId=u2a4b363f-5f45-4002-b233-b5c99bf125b&title=&width=400)
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626893960625-b1cbe42a-a519-475b-b164-047877378dc9.png#clientId=udedc65e2-ea0b-4&from=paste&height=357&id=u489f99b0&originHeight=258&originWidth=289&originalType=binary&ratio=1&rotation=0&showTitle=false&size=11779&status=done&style=none&taskId=u9f619af4-7eea-48fd-8d0e-0a1afcdaed3&title=&width=400)
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.3-004.png" width=500>
+</p>
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.3-005.png" width=500>
+</p>
+
 （5）代码编写窗口
 SAS EM中有类似base的代码编写功能，在这里可以做一些数据查看和处理。
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1626893978586-ef68fde9-7235-472a-9459-6487b41e6765.png#clientId=udedc65e2-ea0b-4&from=paste&height=237&id=uf67f65ad&originHeight=305&originWidth=1285&originalType=binary&ratio=1&rotation=0&showTitle=false&size=37491&status=done&style=none&taskId=uda12ea4b-755e-45f1-bc16-6d5d8bf840f&title=&width=1000)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.3-006.png" width=500>
+</p>
+
 （6）建模功能
 > 详见 模型策略部分。
 
@@ -986,20 +1045,36 @@ SAS EM中有类似base的代码编写功能，在这里可以做一些数据查�
 
 SAS大学生版本，通过VirtualBox的轻量级（2G）SAS版本，支持Windows、MacOS、Linux，安装后启动，可在浏览器通过SAS Studio/JupyterLab编写、运行代码，非常适用于SAS学习、示例代码开发。
 安装步骤：
-![截屏2020-12-14 下午3.05.01.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1617158914419-0b20d60e-8487-4ed7-833b-8197c146969c.png#height=1046&id=mueAW&originHeight=1046&originWidth=3780&originalType=binary&ratio=1&rotation=0&showTitle=false&size=780491&status=done&style=none&title=&width=3780)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.4-000.png">
+</p>
+
 开启页面：
 输入浏览器上输入[http://0.0.0.0:10080/](http://0.0.0.0:10080/)
-![截屏2020-12-12 下午6.55.11.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1617158927637-f47d4a74-1fdf-4a9a-9257-c5b632b5f338.png#height=1994&id=vHAZj&originHeight=1994&originWidth=3840&originalType=binary&ratio=1&rotation=0&showTitle=false&size=854845&status=done&style=none&title=&width=3840)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.4-001.png">
+</p>
+
 JupyterLab：
 与python-Jupyter一致，易保存易共享，本文后续SAS代码大部分经此工具校验调试。
-![截屏2020-12-12 下午6.58.23.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1617158934938-99963859-b895-4011-abd3-b03466b4aa59.png#height=1422&id=NuGgw&originHeight=1422&originWidth=2316&originalType=binary&ratio=1&rotation=0&showTitle=false&size=288584&status=done&style=none&title=&width=2316)
+
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.4-002.png">
+</p>
+
 未来可期！
 
 > 特别的，由于依托Linux环境，SAS路径一般在 /opt/sasinside/SASHome/SASFoundation/9.4/sas，且SAS版本为9.4_M6：
-> ![截屏2021-07-25 上午10.22.35.png](https://cdn.nlark.com/yuque/0/2021/png/2666308/1627179790078-0268d6d6-5a18-476d-b22a-c8ef73526b05.png#clientId=ue46eca03-7f16-4&from=ui&height=222&id=ud336a38a&originHeight=586&originWidth=924&originalType=binary&ratio=1&rotation=0&showTitle=false&size=257256&status=done&style=none&taskId=u5e6105ef-ad65-4cea-a283-fa7150296d3&title=&width=350)
+>
 > **9.4_M6的特殊性在于调整SAS中文编码字符数由2至3，因SUBSTR("堂",1,1) = SUBSTR("商",2,1) 这种偶然性而影响SAS中文判断的bug将大幅减少！**
+> 
 > 请多关注SAS版本修订。
 
+<p align="center">
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.4-003.png" width=400>
+</p>
 
 ### 1.2.6 SAS代码规范
 
