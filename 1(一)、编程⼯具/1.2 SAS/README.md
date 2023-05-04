@@ -858,12 +858,17 @@ RUN;
 
 ### 1.2.3 SAS书籍
 > 《Learning SAS by Example: A Programmer's Guide》
+>
 > 《SAS编程技术教程（朱世武）》
+>
 > 《SAS编程与数据挖掘商业案例》
+>
 > 《SAS语言抛砖引玉》
+>
 > 《The Little SAS Book》
-> SAS Help and Documentation
-
+>
+>  SAS Help and Documentation
+>
 
 ### 1.2.4 SAS Help使⽤
 <p align="center">
@@ -896,6 +901,7 @@ RUN;
 </p>
 
 搜索结果令人无所适从。
+
 #### 1.2.4.3 归纳体系
 关键字搜索非常有用，但当你忘记关键字拼写、拼错关键字甚至想要某某功能关键字时，归纳体系更加便捷。
 （1）Category
