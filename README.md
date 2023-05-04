@@ -22,4 +22,4 @@ What is Decision Science？
 |v1.2.0|Ivan|修订  |2023-03-01|1、Github push</p>2、敏感内容修订|
 |v1.2.1|Ivan|更新  |2023-04-26|1、⚠️ 标注更新|
 |v1.2.2|Ivan|再版✨|2023-05-04|1、Github版本|
-|v1.2.3|Ivan|修订  |ING|1、v1.2.2 Review|
+|v1.2.3|Ivan|修订  |2023-05-05|1、v1.2.2 Review|
