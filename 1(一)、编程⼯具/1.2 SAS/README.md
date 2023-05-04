@@ -1100,6 +1100,7 @@ SAS EM中有类似base的代码编写功能，在这里可以做一些数据查�
 
 
 #### 1.2.5.4 SAS-University
+
 > [https://www.sas.com/en_us/software/university-edition/download-software.html](https://www.sas.com/en_us/software/university-edition/download-software.html)
 
 SAS大学生版本，通过VirtualBox的轻量级（2G）SAS版本，支持Windows、MacOS、Linux，安装后启动，可在浏览器通过SAS Studio/JupyterLab编写、运行代码，非常适用于SAS学习、示例代码开发。
@@ -1132,7 +1133,7 @@ JupyterLab：
 > 请多关注SAS版本修订。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.4-003.png" width=400>
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.4-003.png" width=500>
 </p>
 
 ### 1.2.6 SAS代码规范
@@ -1442,7 +1443,7 @@ PROC FREQ DATA = SASHELP.CLASS;
 RUN;
 ```
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.7.0-000.png" width=400>
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.7.0-000.png" width=500>
 </p>
 
 #### ～PROC SUMMARY
@@ -1466,7 +1467,7 @@ RUN; */
 ```
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.7.0-001.png" width=400>
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.7.0-001.png" width=500>
 </p>
 
 #### ～哈希表HASH连接
@@ -1538,7 +1539,7 @@ RUN;
 ```
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.7.0-002.png" width=400>
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.7.0-002.png" width=500>
 </p>
 
 #### ～Lift提升度
@@ -1626,7 +1627,7 @@ ODS GRAPHICS OFF;
 ```
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.7.0-003.png" width=400>
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.7.0-003.png" width=500>
 </p>
 
 #### ～自制数据集
@@ -1646,7 +1647,7 @@ RUN;
 ```
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.7.0-004.png" width=400>
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.7.0-004.png" width=500>
 </p>
 
 #### ～宏变量工厂
@@ -1838,7 +1839,7 @@ RDAT1=20200102 RDAT2=20200108 _ERROR_=0 _N_=3
 ```
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.7.0-005.png" width=400>
+<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.7.0-005.png" width=500>
 </p>
 
 显然，我们在RAMT1、RDAT1上把要求逻辑实现了一遍，且PUT出来了DATA执行前后`_ALL_`的变化。
