@@ -4,10 +4,12 @@
 
 如下：
 
-$\begin{align}
+$$
+\begin{align}
 demo &= \frac{n}{m} & （1）\\
 &= \frac{1000}{3000} \approx 0.3333 & （2）
-\end{align}$
+\end{align}
+$$
 
 ### 5.5.1 示例模型
 
@@ -44,13 +46,13 @@ dtype: float64
 """
 ```
 
-现在，我们管这个示例模型叫$Demo$。
+现在，我们管这个示例模型叫 $Demo$。
 
 ### 5.5.2 变量筛选
 
-- $WOE$、$IV$
+- $WOE$、 $IV$
 
-对于二分类目标变量，一般用$IV$值(Information Value)以挑选变量。原理公式如下：
+对于二分类目标变量，一般用 $IV$值(Information Value)以挑选变量。原理公式如下：
 
 |  | Good | Bad | Good% | Bad% | $WOE$ | $IV$ |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -64,7 +66,7 @@ dtype: float64
 
 可解释为衡量特征包含预测变量浓度的指标。
 
-示例如下，该变量各取值$IV$值以及总体$IV$值：
+示例如下，该变量各取值 $IV$值以及总体 $IV$值：
 
 |  | 非目标数 | 目标数 | 总计 | $WOE$ | $IV$ |
 | --- | --- | --- | --- | --- | --- |
@@ -80,13 +82,15 @@ $IV 0.197 > 0.1$，有一定预测性。
 
 一般认定，
 
-$\left\{
+$$
+\left\{
 \begin{array}{rcl}
 没有预测性 & & {IV \lt 0.02}\\
 弱预测性 & & {0.02 \leq IV \lt 0.1}\\
 有一定预测性 & & {0.1 \leq IV \lt 0.2}\\
 高预测性 & & {0.2 < IV}\\
-\end{array} \right.$
+\end{array} \right.
+$$
 
 ### 5.5.3 混淆矩阵
 
@@ -100,7 +104,7 @@ $\left\{
 | 1 | FP | TP |
 
 
-在模型$Demo$上，
+在模型 $Demo$上，
 
 | _预测\\实际_ | 0 | 1 |
 | --- | --- | --- |
@@ -110,97 +114,117 @@ $\left\{
 
 - 准确率
 
-$\begin{align}
+$$
+\begin{align}
 accuracy &= \frac{TP+TN}{TP+TN+FP+FN} \\
 &= \frac{3170+3155}{3170+3155+1853+1822} = 0.6325
-\end{align}$
+\end{align}
+$$
 
 原则上，准确率越大越好，但并不好量化优劣，毕竟存在模型输出均为0时准确率已达98%（若1占比仅2%）。
 
 - 精确率
 
-$\begin{align}
+$$
+\begin{align}
 precision &= \frac{TP}{TP+FP} \\
 &= \frac{3170}{3170+1853} \approx 0.6311
-\end{align}$
+\end{align}
+$$
 
 - 召回率
 
-$\begin{align}
+$$
+\begin{align}
 recall &= \frac{TP}{TP+FN} \\
 &= \frac{3170}{3170+1822} = \approx 0.6350
-\end{align}$
+\end{align}
+$$
 
 精确率与召回率，一般认定追求更高精准率将损失一定的召回率，反之同理。后将辅证之。
 
 - $F1$分数
 
-鉴于精确率与召回率的关系，为能同时兼顾，引入精确率和召回率的调和平均数，定义为$F1$分数。
+鉴于精确率与召回率的关系，为能同时兼顾，引入精确率和召回率的调和平均数，定义为 $F1$分数。
 
-$\begin{align}
+$$
+\begin{align}
 F_1 &= \frac{2\times precision \times recall}{precision+recall} \\
 &= \frac{2 \times 0.6311 \times 0.6350}{0.6311+0.6350} \approx 0.6331
-\end{align}$
+\end{align}
+$$
 
-更一般的，我们定义$F_\beta$分数：
+更一般的，我们定义 $F_\beta$分数：
 
 $F_\beta = (1+\beta^2)\frac{precision \times recall}{(\beta ^ 2 \times precision)+recall}$
 
-除了$F_1$分数之外，$F_2$分数和$F_{0.5}$分数在统计学中也得到大量的应用：
+除了 $F_1$分数之外， $F_2$分数和 $F_{0.5}$分数在统计学中也得到大量的应用：
 
-其中，$F_2$分数中，召回率的权重高于精确率，而$F_{0.5}$分数中，精确率的权重高于召回率。
+其中， $F_2$分数中，召回率的权重高于精确率，而 $F_{0.5}$分数中，精确率的权重高于召回率。
 
 - $G$分数
 
-另外的，精确率和召回率的几何平均数定义为$G$分数。
+另外的，精确率和召回率的几何平均数定义为 $G$分数。
 
-$\begin{align}
+$$
+\begin{align}
 G &= \sqrt{precision \times recall} \\
 &= \sqrt{0.6311 \times 0.6350} \approx 0.6331
-\end{align}$
+\end{align}
+$$
 
 - $kappa$值
 
 $p_0 = accuracy = 0.6325$
 
-$\begin{align}
+$$
+\begin{align}
 p_e &= \frac{(TN+FN)\times(TN+FP)+(TP+FN)\times(TP+FP)}{(TP+TN+FP+FN)^2} \\ &=\frac{(3155+1822)\times(3155+1853) + (3170+1822)\times(3170+1853)}{10000^2} \\
 &\approx 0.5000
-\end{align}$
+\end{align}
+$$
 
-$\begin {align}
+$$
+\begin {align}
 kappa &= \frac{p_0-p_e}{1-p_e} \\
 &= \frac{0.6325-0.5000}{1-0.5000} \approx 0.2650
-\end {align}$
+\end {align}
+$$
 
 一般认定，
 
-$\left\{
+$$
+\left\{
 \begin{array}{rcl}
 slight & & {0 < kappa \leq 0.2}\\
 fair & & {0.2 < kappa \leq 0.4}\\
 moderate & & {0.4 < kappa \leq 0.6}\\
 substantial & & {0.6 < kappa \leq 0.8}\\
 almost-perfect & & {0.8 < kappa \lt 1}
-\end{array} \right.$
+\end{array} \right.
+$$
 
-- 假阳性率$FPR$
+- 假阳性率 $FPR$
 
 在所有的负样本中，分类器预测错误的比例：
 
-$\begin{align}
+$$
+\begin{align}
 FPR &= \frac{FP}{FP+TN} \\
 &= \frac{1853}{1853+3155} \approx 0.3700
-\end{align}$
+\end{align}
+$$
 
-- 真阳性率$TPR$
+- 真阳性率 $TPR$
 
 在所有的正样本中，分类器预测正确的比例：
 
-$\begin{align}
+$$
+\begin{align}
 TPR = recall &= \frac{TP}{TP+FN} \\
 &= \frac{3170}{3170+1822} \approx 0.6350
-\end{align}$
+\end{align}
+$$
 
 #### 5.5.3.2 相互关系
 
@@ -247,7 +271,7 @@ for icol in col:
 <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.5.3.2-000.png" width=600>
 </p>
 
-大部分情况下，追求$P$值越高则$R$值越低，反之追求$R$值越高则$P$值越低。
+大部分情况下，追求 $P$值越高则 $R$值越低，反之追求 $R$值越高则 $P$值越低。
 
 - `pd.crosstab(data["_F1"], data["_K"])`
 
@@ -255,15 +279,15 @@ for icol in col:
 <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.5.3.2-001.png" width=1200>
 </p>
 
-模型$F1$值越高，$kappa$越不可能为负值，更多结论可自行研究。
+模型 $F1$值越高， $kappa$越不可能为负值，更多结论可自行研究。
 
 ### 5.5.4 模型排序性
 
 $Ranking$即排序性，常用来反映模型的排序能力。在信贷风控业务中，往往需要模型具有良好的排序性，如信用评分模型，业务希望按模型分数对客群进行划分后，分数高的客群的风险低于分数低的客群。
 
-$BadRate$、$Odds$、$Lift$等指标常用来衡量模型的排序能力。
+$BadRate$、 $Odds$、 $Lift$等指标常用来衡量模型的排序能力。
 
-在模型$Demo$上，根据模型预测概率/评分构建分组，如下：
+在模型 $Demo$上，根据模型预测概率/评分构建分组，如下：
 
 <p align="center">
 <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.5.4.0-000.png" width=300>
@@ -275,7 +299,7 @@ $BadRate_i = \frac{Bad_i}{Sum_i}$
 
 即坏样本率，分组内坏样本数/分组内全部样本数；
 
-且根据`0 0.5008;1 0.4992;`可知整体$BadRate = 0.5008$.
+且根据`0 0.5008;1 0.4992;`可知整体 $BadRate = 0.5008$.
 
 <p align="center">
 <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.5.4.1-000.png" width=300>
@@ -295,13 +319,13 @@ $Odds_i = \frac{Bad_i}{Good_i}$
 
 $Lift_i = \frac{BadRate_i}{BadRate}$
 
-即提升度，分组内$BadRate$/整体样本$BadRate$；
+即提升度，分组内 $BadRate$/整体样本 $BadRate$；
 
 <p align="center">
 <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.5.4.3-000.png" width=300>
 </p>
 
-**PS：这里Lift很受整体样本**$BadRate$**的影响，假设为0.25那么Lift上限不超过4**
+**PS：这里Lift很受整体样本 **$BadRate$** 的影响，假设为0.25那么Lift上限不超过4**
 
 ### 5.5.5 模型区分度
 
@@ -309,9 +333,9 @@ $Lift_i = \frac{BadRate_i}{BadRate}$
 
 #### 5.5.5.1 ROC曲线
 
-$ROC$曲线即$FPR$与$TPR$之间的关系曲线，其中x轴为$FPR$，y轴为$TPR$。显然$TPR$越高，也就是正样本中分类器预测正确，$FPR$越低，也就是负样本中分类器预测错误，这样的模型性能就越好。具体做法为：通过改变不同的阈值$0 \to 1$，得到一系列混淆矩阵，进而得到一系列的$TPR$和$FPR$，绘制出$ROC$曲线。
+$ROC$曲线即 $FPR$与 $TPR$之间的关系曲线，其中x轴为 $FPR$，y轴为 $TPR$。显然 $TPR$越高，也就是正样本中分类器预测正确， $FPR$越低，也就是负样本中分类器预测错误，这样的模型性能就越好。具体做法为：通过改变不同的阈值 $0 \to 1$，得到一系列混淆矩阵，进而得到一系列的 $TPR$和 $FPR$，绘制出 $ROC$曲线。
 
-在模型$Demo$上，在每0.1一个阈值时可得到 $list:[FPR,TPR]$如下：
+在模型 $Demo$上，在每0.1一个阈值时可得到  $list:[FPR,TPR]$如下：
 
 ```
 0.0, 1.000000, 1.000000
@@ -327,7 +351,7 @@ $ROC$曲线即$FPR$与$TPR$之间的关系曲线，其中x轴为$FPR$，y轴为$
 1.0, 0.000000, 0.000000
 ```
 
-进而得到$ROC$曲线：
+进而得到 $ROC$曲线：
 
 <p align="center">
 <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.5.5.1-000.png" width=450>
@@ -335,11 +359,11 @@ $ROC$曲线即$FPR$与$TPR$之间的关系曲线，其中x轴为$FPR$，y轴为$
 
 #### 5.5.5.2 AUC
 
-$AUC$值为$ROC$曲线与坐标轴围成的区域面积。显然，$AUC$越大，则模型分类效果越好。$AUC$反映的是分类器对样本的排序能力。从物理意义上来说，
+$AUC$值为 $ROC$曲线与坐标轴围成的区域面积。显然， $AUC$越大，则模型分类效果越好。 $AUC$反映的是分类器对样本的排序能力。从物理意义上来说，
 
-> $AUC$反映的是好样本的预测结果大于坏样本预测结果的概率
+>  $AUC$反映的是好样本的预测结果大于坏样本预测结果的概率
 
-在模型$Demo$上，$AUC$为0.6841，如下：
+在模型 $Demo$上， $AUC$为0.6841，如下：
 
 <p align="center">
 <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.5.5.2-000.png" width=450>
@@ -347,15 +371,15 @@ $AUC$值为$ROC$曲线与坐标轴围成的区域面积。显然，$AUC$越大�
 
 - 方法1
 
-		简单的，$AUC$既然是$ROC$曲线下的面积，面积可拆解为一个个小的梯形面积之和，具体计算的精度与阈值的精度有关。
+简单的， $AUC$既然是 $ROC$曲线下的面积，面积可拆解为一个个小的梯形面积之和，具体计算的精度与阈值的精度有关。
 
 - 方法2
 
-		在有$n_T$个好样本、$n_F$个坏样本的数据集中，共有$n_T \cdot n_F$对好坏样本组，（所谓一对好坏样本，即一个好样本与一个坏样本）。统计这$n_T \cdot n_F$对样本里，好样本的预测概率大于坏样本的预测概率的个数。
+在有 $n_T$个好样本、 $n_F$个坏样本的数据集中，共有 $n_T \cdot n_F$对好坏样本组，（所谓一对好坏样本，即一个好样本与一个坏样本）。统计这 $n_T \cdot n_F$对样本里，好样本的预测概率大于坏样本的预测概率的个数。
 
 $AUC = \frac{\sum(I(P_T > P_F))}{n_T \times n_F}$
 
-$I(P_T > P_F)$可理解为`1 if P_T > P_F else 0`.
+$I(P_T > P_F)$ 可理解为`1 if P_T > P_F else 0`.
 
 如：
 
@@ -367,41 +391,46 @@ $I(P_T > P_F)$可理解为`1 if P_T > P_F else 0`.
 | D | 1 | 0.8 |
 
 
-有2个好样本、2个坏样本，共有4对好坏样本组$(T,F)$，分别是：
+有2个好样本、2个坏样本，共有4对好坏样本组 $(T,F)$，分别是：
 
 $(C,A)、(C,B)、(D,A)、(D,B)$
 
 那么，
 
-$\begin{align}
+$$
+\begin{align}
 AUC &= \frac{\sum(I(P_T > P_F))}{n_T \times n_F} \\
 &= \frac{I(P_C > P_A) + I(P_C > P_B) + I(P_D > P_A) + I(P_D > P_B)}{4} \\
 &= \frac{I(0.35 > 0.1) + I(0.35 > 0.4) + I(0.8 > 0.1) + I(0.8 > 0.4)}{4} \\
 &= \frac{1+0+1+1}{4} = 0.75\\
-\end{align}$
+\end{align}
+$$
 
 - 方法3
 
-		方法2存在重复计算的缺点，如上例$P_C = 0.5$时，已知$I(P_C > P_A) + I(P_C > P_B) =2$时，如果$P_D \ge P_C$，我们甚至都无需理会$P_A、P_B、P_D$的具体值，就已经知道$I(P_D > P_A) + I(P_D > P_B) =2$.
+方法2存在重复计算的缺点，如上例$P_C = 0.5$时，已知 $I(P_C > P_A) + I(P_C > P_B) =2$时，如果 $P_D \ge P_C$，我们甚至都无需理会 $P_A、P_B、P_D$的具体值，就已经知道 $I(P_D > P_A) + I(P_D > P_B) =2$.
 
-		那么，在有$n_T$个好样本、$n_F$个坏样本的数据集中，
+那么，在有 $n_T$个好样本、 $n_F$个坏样本的数据集中，
 
 （1）对预测概率从高到低排序；
 
-（2）对每一个概率值设一个$rank$值（最高概率$rank=n_T+n_F$，第二高概率$rank=n_T+n_F-1$）；
+（2）对每一个概率值设一个 $rank$值（最高概率 $rank=n_T+n_F$，第二高概率 $rank=n_T+n_F-1$）；
 
-（3）把好样本的$rank$值求和再减去常数项$\frac{n_T(1+n_T)}{2}$（有兴趣可自行推演）；
+（3）把好样本的 $rank$值求和再减去常数项 $\frac{n_T(1+n_T)}{2}$（有兴趣可自行推演）；
 
-		这样可以计算复杂度将自$O(n_T \cdot n_F)$降至$O(n_T+n_F)$，得到：
+这样可以计算复杂度将自 $O(n_T \cdot n_F)$降至 $O(n_T+n_F)$，得到：
 
-$\begin{align}
+$$
+\begin{align}
 AUC &= \frac{-\frac{n_T(1+n_T)}{2}+\sum_i{rank_i|T}}{n_T \times n_F} \\
 &= \frac{-\frac{2(1+2)}{2}+(4+2)}{4} = \frac{-3+6}{4} = 0.75
-\end{align}$
+\end{align}
+$$
 
-		一般认定，
+一般认定，
 
-$\left\{
+$$
+\left\{
 \begin{array}{rcl}
 模型疑反预测 & & {AUC \lt 0.50}\\
 等于随机猜测 & & {AUC = 0.50} \\
@@ -409,7 +438,8 @@ $\left\{
 模型效果一般 & & {0.70 \leq AUC \lt 0.85}\\
 效模型果很好 & & {0.85 \leq AUC \lt 1.00}\\
 perfect模型 & & {AUC = 1.00}
-\end{array} \right.$
+\end{array} \right.
+$$
 
 #### 5.5.5.3 洛伦兹曲线
 
@@ -429,7 +459,7 @@ perfect模型 & & {AUC = 1.00}
 
 （3）按照累计好账户占比和累计坏账户占比得出洛伦兹曲线；
 
-在模型$Demo$上，在每一个评分分组可得到 $list:[CumBad_i,CumGood_i]$如下：
+在模型 $Demo$上，在每一个评分分组可得到 $list:[CumBad_i,CumGood_i]$如下：
 
 ```
 G1, 0.014377, 0.002604
@@ -451,9 +481,9 @@ G9, 1.000000, 1.000000
 
 #### 5.5.5.4 Gini
 
-$Gini$系数是指绝对公平线和洛伦兹曲线围成的面积与绝对公平线以下面积的比例。
+$Gini$ 系数是指绝对公平线和洛伦兹曲线围成的面积与绝对公平线以下面积的比例。
 
-在模型$Demo$上，
+在模型 $Demo$上，
 
 <p align="center">
 <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.5.5.4-000.png" width=450>
@@ -463,7 +493,7 @@ $Gini$系数是指绝对公平线和洛伦兹曲线围成的面积与绝对公�
 
 #### 5.5.5.5 KS
 
-$KS$(Kolmogorov-Smirnov)用于模型风险区分能力进行评估，指标衡量的是好坏样本累计分部之间的差值。好坏样本累计差异越大，$KS$指标越大，那么模型的风险区分能力越强。
+$KS$ (Kolmogorov-Smirnov)用于模型风险区分能力进行评估，指标衡量的是好坏样本累计分部之间的差值。好坏样本累计差异越大， $KS$指标越大，那么模型的风险区分能力越强。
 
 计算步骤：
 
@@ -471,7 +501,7 @@ $KS$(Kolmogorov-Smirnov)用于模型风险区分能力进行评估，指标衡�
 
 （2）计算各分组内的累计好账户数占总好账户数比率、累计坏账户数占总坏账户数比率；
 
-（3）计算各分组内的累计坏账户占比与累计好账户占比差的绝对值，然后对这些绝对值取最大值即KS值；
+（3）计算各分组内的累计坏账户占比与累计好账户占比差的绝对值，然后对这些绝对值取最大值即 $KS$ 值；
 
 $KS = max(abs(\frac{CumBad_i}{SumBab_i} - \frac{CumBad_i}{SumBab_i}))$
 
@@ -479,46 +509,50 @@ $KS = max(abs(\frac{CumBad_i}{SumBab_i} - \frac{CumBad_i}{SumBab_i}))$
 <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.5.5.5-000.png" width=450>
 </p>
 
-在模型$Demo$上，$KS$为0.2560，
+在模型 $Demo$上， $KS$为0.2560，
 
 <p align="center">
 <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.5.5.5-001.png" width=450>
 </p>
 
-这里，我们可以做这样的理解，当模型$Demo$选择拒绝$KS=0.2560$所在组$G5$以及评分分组以下时，在拒绝74.16%坏样本作为“收益”的同时，也付出了错误拒绝48.56%好样本的“代价”。那么$KS$就是在体现这种收益与代价差距的最大化。如果可能的话，我们希望$KS$是64%，那么在拒绝相同的74.16%坏样本作为“收益”时，仅付出错误拒绝10.16%好样本的“代价”。
+这里，我们可以做这样的理解，当模型 $Demo$选择拒绝 $KS=0.2560$所在组 $G5$以及评分分组以下时，在拒绝74.16%坏样本作为“收益”的同时，也付出了错误拒绝48.56%好样本的“代价”。那么$KS$就是在体现这种收益与代价差距的最大化。如果可能的话，我们希望 $KS$是64%，那么在拒绝相同的74.16%坏样本作为“收益”时，仅付出错误拒绝10.16%好样本的“代价”。
 
-		一般认定，
+一般认定，
 
-$\left\{
+$$
+\left\{
 \begin{array}{rcl}
 模型区分较差 & & {0 \lt KS \lt 0.20}\\
 模型相对可用 & & {0.20 \leq KS \lt 0.30}\\
 模型区分较好 & & {0.30 \leq KS \lt 0.75}\\
 模型可能异常 & & {0.75 \leq KS}\\
-\end{array} \right.$
+\end{array} \right.
+$$
 
 ### 5.5.6 模型稳定性
 
-模型稳定性指标：$PSI$、$CSI$，如下。
+模型稳定性指标： $PSI$、 $CSI$，如下。
 
 #### 5.5.6.1 PSI
 
-$PSI$指标是指群体稳定性指数（Population Stability Index），$PSI$反映了不同样本在各分数段的分布的稳定性。
+$PSI$ 指标是指群体稳定性指数（Population Stability Index）， $PSI$反映了不同样本在各分数段的分布的稳定性。
 
 计算公式：
 
 $PSI = \sum_{i=1}^n (A_i - E_i) \times \ln(A_i/E_i)$
 
-其中，$A$表示实际Actual样本，$E$表示预期Excepted样本。
+其中， $A$表示实际Actual样本， $E$表示预期Excepted样本。
 
 一般认定，
 
-$\left\{
+$$
+\left\{
 \begin{array}{rcl}
 模型稳定性好 & & {0 < PSI \leq 0.1}\\
 模型略不稳定 & & {0.1 < PSI \leq 0.25}\\
 模型较不稳定 & & {0.25 < PSI}\\
-\end{array} \right.$
+\end{array} \right.
+$$
 
 如下示例：
 
@@ -539,13 +573,13 @@ $\left\{
 
 #### 5.5.6.2 CSI
 
-$CSI$指标是指特定稳定性指数（Characteristic Stability Index），用来衡量样本在特征层面上的分布变化，反映了特征对评分卡分数变化的影响。当评分卡主模型分数发生变化时，对每个特征计算$CS$I，可以知道哪些特征分布发生变化从而导致的评分卡主模型分数偏移以及哪个特征对模型得分变化的影响最大。
+$CSI$ 指标是指特定稳定性指数（Characteristic Stability Index），用来衡量样本在特征层面上的分布变化，反映了特征对评分卡分数变化的影响。当评分卡主模型分数发生变化时，对每个特征计算 $CS$I，可以知道哪些特征分布发生变化从而导致的评分卡主模型分数偏移以及哪个特征对模型得分变化的影响最大。
 
 计算公式：
 
 $CSI = \sum_{i=1}^n (A_i - E_i) Score_i$
 
-其中，$A$表示实际Actual样本，$E$表示预期Excepted样本，Score表示分箱分值。
+其中， $A$表示实际Actual样本， $E$表示预期Excepted样本，Score表示分箱分值。
 
 | 序号 | Score | $A_i$ | $E_i$ | $A_i/E_i$ | $Sccore_i$ | $A_i - E_i$ | $CSI_i$ |
 | --- | --- | --- | --- | --- | --- | --- | --- |
