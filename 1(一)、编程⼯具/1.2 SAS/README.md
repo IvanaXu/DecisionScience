@@ -903,9 +903,13 @@ RUN;
 搜索结果令人无所适从。
 
 #### 1.2.4.3 归纳体系
+
 关键字搜索非常有用，但当你忘记关键字拼写、拼错关键字甚至想要某某功能关键字时，归纳体系更加便捷。
+
 （1）Category
+
 以计算函数为例，搜索`Function Categories`
+
 > Functions can be categorized by the types of values that they operate on. Each DS2 function belongs to one of the following categories:
 > - Array
 operates on a named aggregate collection of homogenous data
@@ -982,8 +986,11 @@ Win + R，输入sas即可调出SAS BASE，页面如下：
 这里指出，SAS BASE相比SAS EG，语法要求更严谨、没有代码提示、需手动查看日志、不支持中文变量，对代码要求更高，在非远程连接模式下，一般我们建议使用SAS BASE。
 #### 1.2.5.2 SAS-EG
 SAS Enterprise Guide基本使用教程，特指远程连接模式：
+
 （1）桌面双击打开或开始菜单中打开SAS Enterprise Guide 7.1(64-bit)；
+
 （2）用户登录
+
 （2.1）若提示情况如下：
 
 <p align="center">
@@ -991,6 +998,7 @@ SAS Enterprise Guide基本使用教程，特指远程连接模式：
 </p>
 
 输入用户名、密码，点击“确认”即可。
+
 （2.2）若提示情况如下：
 
 <p align="center">
@@ -1010,6 +1018,7 @@ SAS Enterprise Guide基本使用教程，特指远程连接模式：
 </p>
 
 （2.4）在设置中填写名称（可自定义），远程连接服务器的地址、端口、登录的用户名、密码等。填写完毕后点击“保存”，后续步骤与已有配置文件的步骤（2.5）一致。
+
 （2.5）若已有配置文件，则选择给定的特定文件，点击“设为活动”，将弹出用户登录界面。
 
 <p align="center">
