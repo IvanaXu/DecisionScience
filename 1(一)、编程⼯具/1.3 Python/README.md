@@ -1,3 +1,23 @@
+
+- [1.3.1 Python之禅](#131-python之禅)
+- [1.3.2 Python教程](#132-python教程)
+  - [1.3.2.1 小节摘要](#1321-小节摘要)
+  - [1.3.2.2 四大任务](#1322-四大任务)
+- [1.3.3 Python书籍](#133-python书籍)
+- [1.3.4 Python Help使用](#134-python-help使用)
+- [1.3.5 Python包](#135-python包)
+  - [1.3.5.1 Python包缺失](#1351-python包缺失)
+  - [1.3.5.2 Python包安装](#1352-python包安装)
+  - [1.3.5.3 Python包验证](#1353-python包验证)
+- [1.3.6 Python IDE](#136-python-ide)
+  - [1.3.6.1 Jupyter](#1361-jupyter)
+  - [1.3.6.2 Pycharm](#1362-pycharm)
+- [1.3.7 Python代码规范](#137-python代码规范)
+  - [1.3.7.1 PEP 8](#1371-pep-8)
+  - [1.3.7.2 YAPF](#1372-yapf)
+- [1.3.8 Python片段](#138-python片段)
+- [1.3.9 Python编译](#139-python编译)
+
 ### 1.3.1 Python之禅
 ```python
 import this

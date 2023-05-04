@@ -1,3 +1,10 @@
+
+- [3.4.1 数据集市](#341-数据集市)
+- [3.4.2 数据治理](#342-数据治理)
+- [3.4.3 数据安全](#343-数据安全)
+  - [3.4.3.1 安全要求](#3431-安全要求)
+  - [3.4.3.2 导数流程](#3432-导数流程)
+
 <p align="center">
 <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.4.0.0-000.png" width=1600>
 </p>
