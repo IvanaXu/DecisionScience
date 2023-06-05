@@ -387,11 +387,7 @@ plt.show() ## 画图
 指数分布由其平均值 $\theta$（事件之间的平均时间）进行参数化。有时会使用 $\lambda=1/\theta$（事件发生的平均速率）对其进行参数化，其概率密度函数：
 
 $$
-f(x)=\left\{
-\begin{array}{rcl}
-\frac{1}{\theta}e^{-x/\theta} & & {x\ge0}\\
-0 & & {other}\\
-\end{array} \right
+f(x) = \\left \\{\\begin{array}{rcl}\\frac{1}{\\theta}e^{-x/\\theta} & & {x\\ge0}\\\\0 & & {other}\\\\\\end{array} \\right.
 $$
 
 指数分布的公式可以从泊松分布推断出来，引用上例，
