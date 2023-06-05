@@ -9,7 +9,7 @@
 其中模型监控，主要关注上线后各个月份“分数目标事件率”、“分数人数占比”、 “月份 $PSI$ 值”、“月份每月最大  $KS$ 值”曲线等，如下图：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.4.1.0-000.png" width=1000>
+<img src="../../Z/5.4.1.0-000.png" width=1000>
 </p>
 
 示例中，截止到监控时点，分数对应目标事件率和人数占比各月份相对稳定， $KS$ 75.84高，区分能力好， $PSI$ 0.068较小，分数上客群分布稳定。
@@ -21,7 +21,7 @@
 如果模型不稳定，一般是各种原因引起的好坏客户分布变化。如下好坏样本评分分布图：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.4.2.0-000.png" width=600>
+<img src="../../Z/5.4.2.0-000.png" width=600>
 </p>
 
 好客户主要分布在高分区间，而坏客户主要分布在低分区间，两个分布交叉的地方表示模型无法有效区分的区域。
@@ -43,7 +43,7 @@
 （1）坏客户的评分朝着高分段偏移而好客户的评分朝着低分段偏移。反映到实际的情况是全部客户的评分均值变小，且好客户和坏客户的评分均值之差也变小。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.4.2.0-001.png" width=600>
+<img src="../../Z/5.4.2.0-001.png" width=600>
 </p>
 
 分析：这种变化是导致模型预测能力下降**最常见**和**最主要**原因。因为坏客户和好客户分布的交叉区域变大，意味着模型的排序能力降低，从而导致模型的区分度下降。风险模型发生这类变化的原因有可能是宏观经济恶化导致客户整体的还款能力下降，或者公司业务转型导致目标客户发生变化，或者公司业务团队在某段时间内集中某一类的客户过度营销，或者数据质量不稳定的原因。
@@ -51,7 +51,7 @@
 （2）坏客户的评分朝着低分段偏移而好客户的评分朝着高分段偏移。反映到实际的情况是全部客户的评分均值变大，且好客户和坏客户的评分均值之差也变大。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.4.2.0-002.png" width=600>
+<img src="../../Z/5.4.2.0-002.png" width=600>
 </p>
 
 分析：第二种变化的结果是改善型的，模型的区分度不仅没有下降，反而比以前更高了，实践中几乎不可能发生。

@@ -6,39 +6,39 @@
   - [3.4.3.2 导数流程](#3432-导数流程)
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.4.0.0-000.png" width=1600>
+<img src="../../Z/3.4.0.0-000.png" width=1600>
 </p>
 
 基于上述数据现状，初步规划数据工程：
 
 ### 3.4.1 数据集市
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.4.1.0-000.png" width=1600>
+<img src="../../Z/3.4.1.0-000.png" width=1600>
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.4.1.0-001.png" width=1600>
+<img src="../../Z/3.4.1.0-001.png" width=1600>
 </p>
 
 ### 3.4.2 数据治理
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.4.2.0-000.png" width=1600>
+<img src="../../Z/3.4.2.0-000.png" width=1600>
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.4.2.0-001.png" width=1600>
+<img src="../../Z/3.4.2.0-001.png" width=1600>
 </p>
 
 ### 3.4.3 数据安全
 #### 3.4.3.1 安全要求
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.4.3.1-000.png" width=1600>
+<img src="../../Z/3.4.3.1-000.png" width=1600>
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.4.3.1-001.png" width=1600>
+<img src="../../Z/3.4.3.1-001.png" width=1600>
 </p>
 
 #### 3.4.3.2 导数流程
@@ -61,7 +61,7 @@
 > ANYBOX是一个面向企业文档内容协作平台，围绕企业文件应用场景提供海量文件管理、同步/备份、文件共享与协作等文档协作服务，为企业内部成员提供便捷的文件共享协作方式，并打通企业文件流通与协作通道，在文件数据能确保安全控制的同时数据在流转之间实现共享协作，促进文件价值的提升。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.4.3.2-000.png" width=400>
+<img src="../../Z/3.4.3.2-000.png" width=400>
 </p>
 
 这也算是个解决方案，只是略大材小用，故探索后实际运用。现仍主要采用模式1、2。

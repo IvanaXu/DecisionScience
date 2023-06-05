@@ -30,7 +30,7 @@
 #### 0.3.2.1 牛顿法原理
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/0.3.2.0-000.png" height=400>
+<img src="../../Z/0.3.2.0-000.png" height=400>
 </p>
 
 #### 0.3.2.2 计算过程

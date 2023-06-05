@@ -63,7 +63,7 @@ plt.show() ## 画图
 
 ```
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/0.1.1.0-000.png" height=400>
+<img src="../../Z/0.1.1.0-000.png" height=400>
 </p>
 
 简单来说，**大数定律讲的是，样本容量极大时，样本的均值必然趋近于总体的期望。**
@@ -119,10 +119,10 @@ X.hist(bins=100)
 
 ```
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/0.1.4.0-000.png" height=300>
+<img src="../../Z/0.1.4.0-000.png" height=300>
 </p>
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/0.1.4.0-001.png" height=300>
+<img src="../../Z/0.1.4.0-001.png" height=300>
 </p>
 
 ### 0.1.5 期望和标准偏差
@@ -183,7 +183,7 @@ plt.plot(means)
 ```
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/0.1.7.0-000.png" height=400>
+<img src="../../Z/0.1.7.0-000.png" height=400>
 </p>
 
 ### 0.1.8 二项分布
@@ -285,7 +285,7 @@ $f(x) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{-(x-\mu)/2\sigma^2}$
 正态分布最重要的性质是其概率密度紧密聚集在均值附近，尾巴较小，并且不大可能会出现大量异常值。出于这个原因，简单的用正态分布来拟合数据可能会产生严重问题。通常在进行曲线拟合之前，识别并移除主要异常值是常用方法。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/0.1.A.0-000.jpeg" height=300>
+<img src="../../Z/0.1.A.0-000.jpeg" height=300>
 </p>
 
 从理论上，正态分布被作为最有名的概率分布，是因为如果有足够多的时间采样并对结果进行平均，许多分布将收敛于正态分布。这适用于二项分布、泊松分布以及任何可能遇到的其他分布。从技术上讲，任何一个分布的平均值和标准偏差都是有限的。
@@ -362,7 +362,7 @@ plt.show() ## 画图
 ```
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/0.1.A.0-001.png" height=400>
+<img src="../../Z/0.1.A.0-001.png" height=400>
 </p>
 
 简单来说，**中心极限定理讲的是，样本容量极大时，样本均值的抽样分布趋近于正态分布。这和样本所属的总体的分布的类型无关，样本所属总体的分布可以是正态分布，也可以不是。**
@@ -371,7 +371,7 @@ plt.show() ## 画图
 如果我们以显著的方式推广上述分布变量到更高维度，如正态分布，正态分布可以定义任意维度$d$。密度函数类似于一个山丘，它在分布的平均值处达到峰值，并且总体呈现为椭圆形。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/0.1.B.0-000.jpeg" height=300>
+<img src="../../Z/0.1.B.0-000.jpeg" height=300>
 </p>
 
 应该注意到，椭圆体可以向任意方向伸展，不必沿着某一个轴伸展。

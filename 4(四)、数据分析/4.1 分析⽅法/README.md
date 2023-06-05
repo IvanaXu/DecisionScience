@@ -258,7 +258,7 @@ ROC曲线是根据一系列不同的二分类方式(分界值或决定阈）以�
 在葡萄酒行业，常常会使用Vintage Analysis来帮助判断不同产区、不同种类的葡萄酒在不同年份下所呈现的品质与口感。如下图所示，图中红圈中的“1975”即为葡萄酒中所称的“Vintage”，它表示制造该酒所使用的葡萄（大部分）生长和收获的年份。Vintage Analysis在当时用来分析葡萄酒的品质是否会因葡萄生长的年份、气候不同而有显著区别，并评估不同年份的葡萄酒的品质随着窖藏时间的推移而发生的变化。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/4.1.2.1-000.png" height=300>
+<img src="../../Z/4.1.2.1-000.png" height=300>
 </p>
 
 慢慢演变为一种分析方法，且这个概念很适合信用风险领域用它来评估客户好坏充分暴露所需的时间。
@@ -266,18 +266,18 @@ ROC曲线是根据一系列不同的二分类方式(分界值或决定阈）以�
 > 摘录简书-百分号
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/4.1.2.1-001.png">
+<img src="../../Z/4.1.2.1-001.png">
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/4.1.2.1-002.png">
+<img src="../../Z/4.1.2.1-002.png">
 </p>
 
 #### 4.1.2.2 Roll Rate Analysis
 > 摘录简书-百分号
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/4.1.2.2-000.png">
+<img src="../../Z/4.1.2.2-000.png">
 </p>
 
 ### 4.1.3 运营维度

@@ -11,7 +11,7 @@
 ### 2.2.1 信用卡生命周期
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.2.1.0-000.png" width=600>
+<img src="../../Z/2.2.1.0-000.png" width=600>
 </p>
 
 ### 2.2.2 卡片申请
@@ -26,7 +26,7 @@
 信用卡申请表：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.2.2.0-000.png" width=600>
+<img src="../../Z/2.2.2.0-000.png" width=600>
 </p>
 
 申请人信息：姓名、证件号码、单位信息、联系人信息等；
@@ -36,7 +36,7 @@
 - **Where？**
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.2.2.0-001.png" width=600>
+<img src="../../Z/2.2.2.0-001.png" width=600>
 </p>
 
 ### 2.2.3 卡片寄送
@@ -44,13 +44,13 @@
 - **How？**
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.2.2.0-002.png" width=600>
+<img src="../../Z/2.2.2.0-002.png" width=600>
 </p>
 
 - **What？**
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.2.2.0-003.png" width=600>
+<img src="../../Z/2.2.2.0-003.png" width=600>
 </p>
 
 开卡纸：包括卡片的账单日、信用额度、卡片激活方式、用卡安全等信息。
@@ -58,11 +58,11 @@
 - **信用卡**
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.2.2.0-004.png" width=600>
+<img src="../../Z/2.2.2.0-004.png" width=600>
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.2.2.0-005.png" width=600>
+<img src="../../Z/2.2.2.0-005.png" width=600>
 </p>
 
 - **信用额度**
@@ -79,7 +79,7 @@
 - **Where？**
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.2.4.0-000.png" width=600>
+<img src="../../Z/2.2.4.0-000.png" width=600>
 </p>
 
 > 【商业银行信用卡业务监督管理办法】
@@ -95,13 +95,13 @@
 - **信用卡密码**
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.2.5.0-000.png" width=600>
+<img src="../../Z/2.2.5.0-000.png" width=600>
 </p>
 
 - **关于日期**
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.2.5.0-001.png" width=600>
+<img src="../../Z/2.2.5.0-001.png" width=600>
 </p>
 
 ### 2.2.6 信用卡账单
@@ -109,13 +109,13 @@
 - **账单查询**
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.2.6.0-000.png" width=600>
+<img src="../../Z/2.2.6.0-000.png" width=600>
 </p>
 
 - **账单信息**
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.2.6.0-001.png" width=600>
+<img src="../../Z/2.2.6.0-001.png" width=600>
 </p>
 
 账单日：账单的结算日，利息、滞纳金在账单日产生。
@@ -133,7 +133,7 @@
 最长免息宽限期：账单日次日消费。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.2.6.0-002.png" width=600>
+<img src="../../Z/2.2.6.0-002.png" width=600>
 </p>
 
 > 【银行卡业务管理办法】
@@ -163,13 +163,13 @@
 - **还款**
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.2.7.0-000.png" width=600>
+<img src="../../Z/2.2.7.0-000.png" width=600>
 </p>
 
 - **分期付款**
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.2.7.0-001.png" width=600>
+<img src="../../Z/2.2.7.0-001.png" width=600>
 </p>
 
 - **相关政策**

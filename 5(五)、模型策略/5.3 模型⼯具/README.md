@@ -14,7 +14,7 @@
 信用评分模块包含信用交换、交互式分组、拒绝推断、计分卡。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.1.1-000.png" width=1000>
+<img src="../../Z/5.3.1.1-000.png" width=1000>
 </p>
 
 1、交互式分组
@@ -38,7 +38,7 @@
 序号4：输出窗口；
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.1.1-001.png" width=1000>
+<img src="../../Z/5.3.1.1-001.png" width=1000>
 </p>
 
 2、人工分组
@@ -48,25 +48,25 @@
 步骤一：点击“交互式分组”模块（序号1）-> “交互式分组”（序号2），进入人工分组界面；
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.1.1-002.png" width=1000>
+<img src="../../Z/5.3.1.1-002.png" width=1000>
 </p>
 
 步骤二：选择需要进行调整的变量（序号1）->“分组”（序号2）；
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.1.1-003.png" width=1000>
+<img src="../../Z/5.3.1.1-003.png" width=1000>
 </p>
 
 步骤三：对变量进行分组，选择需要合并的组->右键选择“合并箱”；
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.1.1-004.png" width=1000>
+<img src="../../Z/5.3.1.1-004.png" width=1000>
 </p>
 
 步骤四：点击“应用”->“关闭”->“保存结果”，结束；
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.1.1-005.png" width=1000>
+<img src="../../Z/5.3.1.1-005.png" width=1000>
 </p>
 
 步骤五：重跑模型，重跑过程中会应用新调整的分组；
@@ -82,7 +82,7 @@
 -  双倍优比点数（pdo）：增加评分点数，生成与双倍优比对应的评分。“双倍优比点数”属性接受大于等于 1 的整数。默认值为 20。 表示ln(odds)中的odds翻倍的时候，评分增加的分数值。odds表示0：1的比率，申请评分卡中odds表示好客户数量：坏客户数量
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.1.1-006.png" width=1000>
+<img src="../../Z/5.3.1.1-006.png" width=1000>
 </p>
 
 （2）评分卡结果说明
@@ -100,7 +100,7 @@
 评分代码可以有“查看-评分-SAS代码”得到。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.1.1-007.png" width=1000>
+<img src="../../Z/5.3.1.1-007.png" width=1000>
 </p>
 
 4、模型比较
@@ -110,19 +110,19 @@
 点击“评估”（序号1）->选择“模型比较”（序号2）
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.1.1-008.png" width=1000>
+<img src="../../Z/5.3.1.1-008.png" width=1000>
 </p>
 
 例：设置两个模型，决策树和评分卡，设置单独的训练集和验证集。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.1.1-009.png" width=1000>
+<img src="../../Z/5.3.1.1-009.png" width=1000>
 </p>
 
 点击“模型比较”模块，右键选择“结果”。出现两个模型的评估结果。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.1.1-010.png" width=1000>
+<img src="../../Z/5.3.1.1-010.png" width=1000>
 </p>
 
 主要的评估效果包括：
@@ -130,7 +130,7 @@
 （1）训练集、验证集、测试集的ks值和AUC（KS和AUC的值越高，分类的效果越好）
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.1.1-011.png" width=1000>
+<img src="../../Z/5.3.1.1-011.png" width=1000>
 </p>
 
 （2）ROC图：
@@ -140,7 +140,7 @@
 ROC曲线的面积成为AUC，AUC越大，分类的效果越好。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.1.1-012.png" width=1000>
+<img src="../../Z/5.3.1.1-012.png" width=1000>
 </p>
 
 （3）分类的效果，包括各模型各类别的分类结果：
@@ -148,7 +148,7 @@ ROC曲线的面积成为AUC，AUC越大，分类的效果越好。
 横坐标表示各个类别，纵坐标表示数量的占比。如图所示，数据分成两类0和1。两类的占比之和为100%，每一个类别中，蓝色的部分表示预测正确的样本占比，橘黄色部分表示预测错误的样本占比。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.1.1-013.png" width=1000>
+<img src="../../Z/5.3.1.1-013.png" width=1000>
 </p>
 
 #### 5.3.1.2 决策树
@@ -166,7 +166,7 @@ ROC曲线的面积成为AUC，AUC越大，分类的效果越好。
 序号3：“抽样”子模块，随机抽样，随机生成数据集的子集，生成一个数据集。（原数据集可能比较大，抽出小样本分析或测试）
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.1.2-000.png" width=1000>
+<img src="../../Z/5.3.1.2-000.png" width=1000>
 </p>
 
 （1）数据分区
@@ -192,7 +192,7 @@ ROC曲线的面积成为AUC，AUC越大，分类的效果越好。
 序号3：当抽样类型为“百分比”时才能更改使用，抽样的样本数量占原样本数量比例。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.1.2-001.png" width=1000>
+<img src="../../Z/5.3.1.2-001.png" width=1000>
 </p>
 
 2、决策树参数设置
@@ -200,7 +200,7 @@ ROC曲线的面积成为AUC，AUC越大，分类的效果越好。
 （1）决策树基本结构
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.1.2-002.png" width=1000>
+<img src="../../Z/5.3.1.2-002.png" width=1000>
 </p>
 
 Node ID:
@@ -226,7 +226,7 @@ Node ID:
 序号6：“交叉验证”模块、“执行交叉验证”：（“是”，“否”两个选项）、“子集数”：用于交叉验证的子集的数量（随机等分生成），如果值为10，表示从训练数据随机等分生成10份子集。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.1.2-003.png" width=1000>
+<img src="../../Z/5.3.1.2-003.png" width=1000>
 </p>
 
 3、变量设置
@@ -234,13 +234,13 @@ Node ID:
 设置好决策树的参数之后，对变量进行选择编辑，将需要做决策树的X自变量的角色设定为“输入”，Y目标变量的角色设定为“目标”，其他与决策树无关的变量设定为“拒绝”，变量角色还有“ID”，“标签”，“频数”等多种，可根据自身需要设定。右键进入变量编辑界面的方式如下图所示：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.1.2-004.png" width=1000>
+<img src="../../Z/5.3.1.2-004.png" width=1000>
 </p>
 
 点击进入“编辑变量”界面之后：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.1.2-005.png" width=1000>
+<img src="../../Z/5.3.1.2-005.png" width=1000>
 </p>
 
 编辑变量时，点击每个变量的“角色”框，点击后会像图中出现箭头按钮，点击箭头按钮会出现下拉选项，然后就可以对变量进行角色编辑。红色框中的值用于变量的类型编辑，类似于角色编辑，点击后会有箭头按钮和下拉选项，选项包含“序数型”、“区间型”、“二值型”等多个选项，可根据自身需要设置。
@@ -260,13 +260,13 @@ Node ID:
 注：通过 查看—评分—SAS代码 可以得到决策树的分群代码。利用该代码可以在样本外数据上进行分类。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.1.2-006.png" width=1000>
+<img src="../../Z/5.3.1.2-006.png" width=1000>
 </p>
 
 （2）决策树结构
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.1.2-007.png" width=1000>
+<img src="../../Z/5.3.1.2-007.png" width=1000>
 </p>
 
 5、交互式决策树介绍
@@ -274,15 +274,15 @@ Node ID:
 在决策树的交互式中使用者可以手动剪支、自主选择拆分的节点、自主选择变量，树的构造更加自主化，可以建立一个更符合用户需求的决策树。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.1.2-008.png" width=400>
+<img src="../../Z/5.3.1.2-008.png" width=400>
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.1.2-009.png" width=700>
+<img src="../../Z/5.3.1.2-009.png" width=700>
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.1.2-010.png" width=1000>
+<img src="../../Z/5.3.1.2-010.png" width=1000>
 </p>
 
 ### 5.3.2 FICO Model Builder
@@ -290,11 +290,11 @@ Node ID:
 以下简介之：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.2.0-000.png" width=1000>
+<img src="../../Z/5.3.2.0-000.png" width=1000>
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.3.2.0-001.png" width=1000>
+<img src="../../Z/5.3.2.0-001.png" width=1000>
 </p>
 
 ### 5.3.3 Python建模

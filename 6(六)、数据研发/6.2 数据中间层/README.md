@@ -6,7 +6,7 @@
 涵盖产品、事件、协议、渠道、参与者、资产、地址、关系、营销、机构、财务等数据领域，如下：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/6.2.1.0-000.png" height=600>
+<img src="../../Z/6.2.1.0-000.png" height=600>
 </p>
 
 ### 6.2.2 设计原则

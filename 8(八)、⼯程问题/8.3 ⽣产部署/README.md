@@ -349,11 +349,11 @@ echo END
 Control-M是BMC Software提供的企业级集中作业调度管理解决方案，它集中地管理跨平台、跨应用的生产控制和调度过程，该解决方案的核心功能是：按照业务逻辑自动调度和提交相关作业；实时监控和分析作业运行状态和运行结果； 基于运行结果自动进行作业的后续处理。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.3.1.2-000.png">
+<img src="../../Z/8.3.1.2-000.png">
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.3.1.2-001.png">
+<img src="../../Z/8.3.1.2-001.png">
 </p>
 
 
@@ -565,13 +565,13 @@ poetry0.json，69087, 2038
 对poetry0.json未作任何修改，先后压缩两个压缩包，可见CRC32码`74E6C3FF`一致。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.3.2.2-000.png" height=400>
+<img src="../../Z/8.3.2.2-000.png" height=400>
 </p>
 
 修改poetry0.json并重新压缩，与原压缩包对比，CRC32码自`74E6C3FF`变化为`7EEC7428`。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.3.2.2-001.png" height=400>
+<img src="../../Z/8.3.2.2-001.png" height=400>
 </p>
 
 那么，用此方法检查调额短信文件，可保障完整流程下数据文件始终保持一致。

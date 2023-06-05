@@ -70,7 +70,7 @@
 #### 3.1.2.1 业务流程
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.2.1-000.png" width=1000>
+<img src="../../Z/3.1.2.1-000.png" width=1000>
 </p>
 
 上述整个信用卡业务流程在银联发卡核心系统上面流转。
@@ -133,7 +133,7 @@ APS则记录了申请审批整个过程的信息，主键：申请书条形码�
 #### 3.1.2.2 数据框架
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.2.2-000.png" width=1000>
+<img src="../../Z/3.1.2.2-000.png" width=1000>
 </p>
 
 ### 3.1.3 人行征信数据
@@ -229,23 +229,23 @@ APS则记录了申请审批整个过程的信息，主键：申请书条形码�
 人行信用报告样例，这里版本为二代，标注部分为与一代差异，主要为新增和调整，整体数据结构一致。
 
 <p align="center">
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-001.png" width=1000>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-002.png" width=1000>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-003.png" width=1000>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-004.png" width=1000>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-005.png" width=1000>
+  <img src="../../Z/3.1.3.2-001.png" width=1000>
+  <img src="../../Z/3.1.3.2-002.png" width=1000>
+  <img src="../../Z/3.1.3.2-003.png" width=1000>
+  <img src="../../Z/3.1.3.2-004.png" width=1000>
+  <img src="../../Z/3.1.3.2-005.png" width=1000>
   
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-006.png" width=1000>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-007.png" width=1000>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-008.png" width=1000>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-009.png" width=1000>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-010.png" width=1000>
+  <img src="../../Z/3.1.3.2-006.png" width=1000>
+  <img src="../../Z/3.1.3.2-007.png" width=1000>
+  <img src="../../Z/3.1.3.2-008.png" width=1000>
+  <img src="../../Z/3.1.3.2-009.png" width=1000>
+  <img src="../../Z/3.1.3.2-010.png" width=1000>
   
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-011.png" width=1000>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-012.png" width=1000>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-013.png" width=1000>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-014.png" width=1000>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.2-015.png" width=1000>
+  <img src="../../Z/3.1.3.2-011.png" width=1000>
+  <img src="../../Z/3.1.3.2-012.png" width=1000>
+  <img src="../../Z/3.1.3.2-013.png" width=1000>
+  <img src="../../Z/3.1.3.2-014.png" width=1000>
+  <img src="../../Z/3.1.3.2-015.png" width=1000>
 </p>
 
 
@@ -253,7 +253,7 @@ APS则记录了申请审批整个过程的信息，主键：申请书条形码�
 人行评分只是一个通俗名称，人行报告上称其为“数字解读”，如下：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.3-000.png" width=1000>
+<img src="../../Z/3.1.3.3-000.png" width=1000>
 </p>
 
 即该客户因存在逾期还款记录影响，当前人行评分为468，人群相对位置10%-20%，较低。
@@ -296,13 +296,13 @@ APS则记录了申请审批整个过程的信息，主键：申请书条形码�
 由于人行评分形成了统一行业标准，详见最新版本《个人信用报告数字解读-验证几率表》，如2013.12-2015.12日期示例：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.3-001.png" width=1000>
+<img src="../../Z/3.1.3.3-001.png" width=1000>
 </p>
 
 那么，其评分占比分布也是观测/对比客群结构最直观的方法，如下：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.3-002.png" width=1000>
+<img src="../../Z/3.1.3.3-002.png" width=1000>
 </p>
 
 #### 3.1.3.4 数据应用
@@ -311,13 +311,13 @@ APS则记录了申请审批整个过程的信息，主键：申请书条形码�
 （1）贷款
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.4-000.png" width=600>
+<img src="../../Z/3.1.3.4-000.png" width=600>
 </p>
 
 （2）贷记卡
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.3.4-001.png" width=600>
+<img src="../../Z/3.1.3.4-001.png" width=600>
 </p>
 
 如例，该客户有房有车，相关贷款、贷记卡历史未有逾期；现持32.2W的车贷月应还13981，126W的房贷月应还8445，**有一定的资质**；有ZF银行10W授信贷记卡，且历史最大额度使用率为30.3%，**但近6个月无使用**，另有SE银行8.5W授信贷记卡，近6个月平均使用24445，当前额度使用率100%，但本月实还、应还款均为12292，**推测近6个月消费自ZF银行转移SE银行，且在SE银行新办有灵账分期业务**。
@@ -363,12 +363,12 @@ _注：ZF、SE为人行报告商业银行代号._
 如下图示例，其数据盘点：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.5.0-000.png" width=1000>
+<img src="../../Z/3.1.5.0-000.png" width=1000>
 </p>
 
 以**交易行为**为例，一般涵盖存取现金、支付转账、内部转账、网上支付、日常消费等，以每户每日逐条记录的交易流水存在，具体到时间和金额。
 若进一步细化，交易行为可分为：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.1.5.0-001.png" width=640>
+<img src="../../Z/3.1.5.0-001.png" width=640>
 </p>

@@ -6,29 +6,29 @@
 ### 2.5.1 巴塞尔协议
 
 <p align="center">
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.5.1.0-000.png" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.5.1.0-001.png" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.5.1.0-002.png" width=800>
+  <img src="../../Z/2.5.1.0-000.png" width=800>
+  <img src="../../Z/2.5.1.0-001.png" width=800>
+  <img src="../../Z/2.5.1.0-002.png" width=800>
   
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.5.1.0-003.png" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.5.1.0-004.png" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.5.1.0-005.png" width=800>
+  <img src="../../Z/2.5.1.0-003.png" width=800>
+  <img src="../../Z/2.5.1.0-004.png" width=800>
+  <img src="../../Z/2.5.1.0-005.png" width=800>
   
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.5.1.0-006.png" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.5.1.0-007.png" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.5.1.0-008.png" width=800>
+  <img src="../../Z/2.5.1.0-006.png" width=800>
+  <img src="../../Z/2.5.1.0-007.png" width=800>
+  <img src="../../Z/2.5.1.0-008.png" width=800>
   
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.5.1.0-009.png" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.5.1.0-010.png" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.5.1.0-011.png" width=800>
+  <img src="../../Z/2.5.1.0-009.png" width=800>
+  <img src="../../Z/2.5.1.0-010.png" width=800>
+  <img src="../../Z/2.5.1.0-011.png" width=800>
   
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.5.1.0-012.png" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.5.1.0-013.png" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.5.1.0-014.png" width=800>
+  <img src="../../Z/2.5.1.0-012.png" width=800>
+  <img src="../../Z/2.5.1.0-013.png" width=800>
+  <img src="../../Z/2.5.1.0-014.png" width=800>
   
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.5.1.0-015.png" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.5.1.0-016.png" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.5.1.0-017.png" width=800>
+  <img src="../../Z/2.5.1.0-015.png" width=800>
+  <img src="../../Z/2.5.1.0-016.png" width=800>
+  <img src="../../Z/2.5.1.0-017.png" width=800>
 </p>
 
 > 选自《巴塞尔新资本协议达标核心要素-Deloitte/德勤》
@@ -37,7 +37,7 @@
 ### 2.5.2 风险管理概论
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.5.2.0-000.png" width=300>
+<img src="../../Z/2.5.2.0-000.png" width=300>
 </p>
 
 > 林亚臣《零售金融风险管理概论》

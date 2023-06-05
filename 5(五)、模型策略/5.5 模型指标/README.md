@@ -289,7 +289,7 @@ for icol in col:
 
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.5.3.2-000.png" width=600>
+<img src="../../Z/5.5.3.2-000.png" width=600>
 </p>
 
 大部分情况下，追求 $P$值越高则 $R$值越低，反之追求 $R$值越高则 $P$值越低。
@@ -297,7 +297,7 @@ for icol in col:
 - `pd.crosstab(data["_F1"], data["_K"])`
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.5.3.2-001.png" width=1200>
+<img src="../../Z/5.5.3.2-001.png" width=1200>
 </p>
 
 模型 $F1$值越高， $kappa$越不可能为负值，更多结论可自行研究。
@@ -311,7 +311,7 @@ $BadRate$、 $Odds$、 $Lift$等指标常用来衡量模型的排序能力。
 在模型 $Demo$上，根据模型预测概率/评分构建分组，如下：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.5.4.0-000.png" width=300>
+<img src="../../Z/5.5.4.0-000.png" width=300>
 </p>
 
 #### 5.5.4.1 BadRate
@@ -323,7 +323,7 @@ $BadRate_i = \frac{Bad_i}{Sum_i}$
 且根据`0 0.5008;1 0.4992;`可知整体 $BadRate = 0.5008$.
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.5.4.1-000.png" width=300>
+<img src="../../Z/5.5.4.1-000.png" width=300>
 </p>
 
 #### 5.5.4.2 Odds
@@ -333,7 +333,7 @@ $Odds_i = \frac{Bad_i}{Good_i}$
 即好坏样本比，分组内坏样本数/分组内好样本数；
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.5.4.2-000.png" width=300>
+<img src="../../Z/5.5.4.2-000.png" width=300>
 </p>
 
 #### 5.5.4.3 Lift
@@ -343,7 +343,7 @@ $Lift_i = \frac{BadRate_i}{BadRate}$
 即提升度，分组内 $BadRate$/整体样本 $BadRate$；
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.5.4.3-000.png" width=300>
+<img src="../../Z/5.5.4.3-000.png" width=300>
 </p>
 
 **PS：这里Lift很受整体样本 **$BadRate$** 的影响，假设为0.25那么Lift上限不超过4**
@@ -375,7 +375,7 @@ $ROC$曲线即 $FPR$与 $TPR$之间的关系曲线，其中x轴为 $FPR$，y轴�
 进而得到 $ROC$曲线：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.5.5.1-000.png" width=450>
+<img src="../../Z/5.5.5.1-000.png" width=450>
 </p>
 
 #### 5.5.5.2 AUC
@@ -387,7 +387,7 @@ $AUC$值为 $ROC$曲线与坐标轴围成的区域面积。显然， $AUC$越大
 在模型 $Demo$上， $AUC$为0.6841，如下：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.5.5.2-000.png" width=450>
+<img src="../../Z/5.5.5.2-000.png" width=450>
 </p>
 
 - 方法1
@@ -467,7 +467,7 @@ $$
 洛伦兹曲线最先用来描述社会收入不均衡的现象，在一个总体（国家、地区）内，以“最贫穷的人口计算起一直到最富有人口”的人口百分比对应各个人口百分比的收入百分比的点组成的曲线。为了研究国民收入在国民之间的分配问题，统计学家 M.O.洛伦兹提出了著名的洛伦兹曲线。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.5.5.3-000.png" width=450>
+<img src="../../Z/5.5.5.3-000.png" width=450>
 </p>
 
 首先将全社会的人按照收入升序排序，然后计算累计前$X%$的人的收入占社会总收入的百分之几，这个数值就是对应$X$的$Y$，洛伦兹曲线就是这一函数的图像。例如：假设收入最低的前1%的人其收入占比为1%，前2%的人收入占比为2%……前99%的人收入占比为99%，那么洛伦兹曲线就与收入分配绝对平等直线重合，此时全社会所有人的收入都是一样的。再如：假设收入最低的前99%的人其收入占比为50%，那就意味着剩下1%的人拿走了全社会50%的收入，此时洛伦兹曲线严重偏离收入分配绝对平等直线。显然，社会收入越平均，洛伦兹曲线越接近收入分配绝对平等直线。
@@ -497,7 +497,7 @@ G9, 1.000000, 1.000000
 进而得到洛伦兹曲线：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.5.5.3-001.png" width=450>
+<img src="../../Z/5.5.5.3-001.png" width=450>
 </p>
 
 #### 5.5.5.4 Gini
@@ -507,7 +507,7 @@ $Gini$ 系数是指绝对公平线和洛伦兹曲线围成的面积与绝对公�
 在模型 $Demo$上，
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.5.5.4-000.png" width=450>
+<img src="../../Z/5.5.5.4-000.png" width=450>
 </p>
 
 推演逻辑可参考AUC计算。
@@ -527,13 +527,13 @@ $KS$ (Kolmogorov-Smirnov)用于模型风险区分能力进行评估，指标衡�
 $KS = max(abs(\frac{CumBad_i}{SumBab_i} - \frac{CumBad_i}{SumBab_i}))$
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.5.5.5-000.png" width=450>
+<img src="../../Z/5.5.5.5-000.png" width=450>
 </p>
 
 在模型 $Demo$上， $KS$为0.2560，
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.5.5.5-001.png" width=450>
+<img src="../../Z/5.5.5.5-001.png" width=450>
 </p>
 
 这里，我们可以做这样的理解，当模型 $Demo$选择拒绝 $KS=0.2560$所在组 $G5$以及评分分组以下时，在拒绝74.16%坏样本作为“收益”的同时，也付出了错误拒绝48.56%好样本的“代价”。那么$KS$就是在体现这种收益与代价差距的最大化。如果可能的话，我们希望 $KS$是64%，那么在拒绝相同的74.16%坏样本作为“收益”时，仅付出错误拒绝10.16%好样本的“代价”。

@@ -16,11 +16,11 @@
 ### 5.1.1 模型简介
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.1.1.0-000.png" width=800>
+<img src="../../Z/5.1.1.0-000.png" width=800>
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.1.1.0-001.png" width=800>
+<img src="../../Z/5.1.1.0-001.png" width=800>
 </p>
 
 - 什么是模型？
@@ -39,15 +39,15 @@
 
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.1.1.0-002.png" width=800>
+<img src="../../Z/5.1.1.0-002.png" width=800>
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.1.1.0-003.png" width=800>
+<img src="../../Z/5.1.1.0-003.png" width=800>
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.1.1.0-004.png" width=800>
+<img src="../../Z/5.1.1.0-004.png" width=800>
 </p>
 
 - 模型优缺点
@@ -66,26 +66,26 @@
 > - 随时间的推移精确度变差
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.1.1.0-005.png" width=800>
+<img src="../../Z/5.1.1.0-005.png" width=800>
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.1.1.0-006.png" width=800>
+<img src="../../Z/5.1.1.0-006.png" width=800>
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.1.1.0-007.png" width=800>
+<img src="../../Z/5.1.1.0-007.png" width=800>
 </p>
 
 ### 5.1.2 开发流程
 #### 5.1.2.1 基本流程
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.1.2.1-000.png" width=800>
+<img src="../../Z/5.1.2.1-000.png" width=800>
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.1.2.1-001.png" width=800>
+<img src="../../Z/5.1.2.1-001.png" width=800>
 </p>
 
 #### 5.1.2.2 开发目标
@@ -99,43 +99,43 @@
 - 好坏定义
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.1.2.3-000.png" width=800>
+<img src="../../Z/5.1.2.3-000.png" width=800>
 </p>
 
 - 转期比分析
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.1.2.3-001.png" width=800>
+<img src="../../Z/5.1.2.3-001.png" width=800>
 </p>
 
 - 坏账表现分析
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.1.2.3-002.png" width=800>
+<img src="../../Z/5.1.2.3-002.png" width=800>
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.1.2.3-003.png" width=800>
+<img src="../../Z/5.1.2.3-003.png" width=800>
 </p>
 
 - 时间窗口
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.1.2.3-004.png" width=800>
+<img src="../../Z/5.1.2.3-004.png" width=800>
 </p>
 
 #### 5.1.2.4 数据处理
 数据收集和数据预处理。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.1.2.3-005.png" width=800>
+<img src="../../Z/5.1.2.3-005.png" width=800>
 </p>
 
 #### 5.1.2.5 特征探索
 候选特征变量探索分析。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.1.2.3-006.png" width=800>
+<img src="../../Z/5.1.2.3-006.png" width=800>
 </p>
 
 #### 5.1.2.6 模型拟合
@@ -164,25 +164,25 @@ Point Double Odds = 15
 - KS
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.1.2.8-000.png" width=800>
+<img src="../../Z/5.1.2.8-000.png" width=800>
 </p>
 
 - Score Distribution & Bad Rate
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.1.2.8-001.png" width=800>
+<img src="../../Z/5.1.2.8-001.png" width=800>
 </p>
 
 - Divergence
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.1.2.8-002.png" width=800>
+<img src="../../Z/5.1.2.8-002.png" width=800>
 </p>
 
 - PSI 趋势
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.1.2.8-003.png" width=800>
+<img src="../../Z/5.1.2.8-003.png" width=800>
 </p>
 
 ### 5.1.3 评分卡模型
@@ -193,7 +193,7 @@ Point Double Odds = 15
 ### 5.1.4 模型应用
 
 <p align="center">
- <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.1.4.0-000.png" width=800>
- <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.1.4.0-001.png" width=800>
- <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.1.4.0-002.png" width=800>
+ <img src="../../Z/5.1.4.0-000.png" width=800>
+ <img src="../../Z/5.1.4.0-001.png" width=800>
+ <img src="../../Z/5.1.4.0-002.png" width=800>
 </p>

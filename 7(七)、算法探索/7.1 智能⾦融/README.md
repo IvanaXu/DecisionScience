@@ -18,13 +18,13 @@
 ### 7.1.1 信贷风控流程
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.1.1.0-000.png" width=750>
+<img src="../../Z/7.1.1.0-000.png" width=750>
 </p>
 
 ### 7.1.2 风险画像体系
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.1.2.0-000.png" width=750>
+<img src="../../Z/7.1.2.0-000.png" width=750>
 </p>
 
 > `业务点`：收入、负债模型优化
@@ -32,19 +32,19 @@
 ### 7.1.3 传统风控模型
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.1.3.0-000.png" width=750>
+<img src="../../Z/7.1.3.0-000.png" width=750>
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.1.3.0-001.png" width=750>
+<img src="../../Z/7.1.3.0-001.png" width=750>
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.1.3.0-002.png" width=750>
+<img src="../../Z/7.1.3.0-002.png" width=750>
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.1.3.0-003.png" width=750>
+<img src="../../Z/7.1.3.0-003.png" width=750>
 </p>
 
 > 传统风控模型强依赖人行数据，其中无人行客群主要参考物理属性，属于`优化点`。
@@ -70,17 +70,17 @@
 ### 7.1.4 智能金融风控
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.1.4.0-000.png" width=750>
+<img src="../../Z/7.1.4.0-000.png" width=750>
 </p>
 
 #### 7.1.4.1 数据孤岛
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.1.4.1-000.png" width=750>
+<img src="../../Z/7.1.4.1-000.png" width=750>
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.1.4.1-001.png" width=750>
+<img src="../../Z/7.1.4.1-001.png" width=750>
 </p>
 
 > 关于联合建模
@@ -140,13 +140,13 @@
 #### 7.1.4.2 非结构化数据
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.1.4.2-000.png" width=750>
+<img src="../../Z/7.1.4.2-000.png" width=750>
 </p>
 
 举例：文本处理上，公司名称-公司分级，传统人工标注方法不适用新公司名称，引入NLP。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.1.4.2-001.png" width=750>
+<img src="../../Z/7.1.4.2-001.png" width=750>
 </p>
 
 > 关于NLP技术应用
@@ -169,7 +169,7 @@
 > 
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.1.4.2-002.png" width=750>
+<img src="../../Z/7.1.4.2-002.png" width=750>
 </p>
 
 > 实打实的“他山之石，可以攻玉”，详见链接：[https://github.com/guoday/Tencent2020_Rank1st](https://github.com/guoday/Tencent2020_Rank1st)
@@ -239,7 +239,7 @@
 | 201912 | 0.8925 | 0.8780 | 0.7310 | 0.9730 | 0.9585 |
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.1.4.2-003.png" width=750>
+<img src="../../Z/7.1.4.2-003.png" width=750>
 </p>
 
 可知，SAS、NLP1、NLP1+SAS模型ROC分别稳定在0.89、0.96、0.97，而NLP2模型随着时间推移ROC已不足0.75，语料更新比预想还要快，据此构建的NLP模型ROC下滑明显。但我们仍可采用如NLP1模型**每月重新训练**来保证模型效果。
@@ -248,7 +248,7 @@
 举例：获取认证用户自上传的视频信息，通过目标检测来实现视觉风控，即如图左一、二可能优于左三、四、五。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.1.4.2-004.png" width=750>
+<img src="../../Z/7.1.4.2-004.png" width=750>
 </p>
 
 > CV，计算机视觉
@@ -260,7 +260,7 @@
 > B、人脸识别
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.1.4.2-005.png" width=300>
+<img src="../../Z/7.1.4.2-005.png" width=300>
 </p>
 
 > 预训练版本：基于dlib，加载预训练模型shape_predictor_5_face_landmarks、shape_predictor_68_face_landmarks；
@@ -270,7 +270,7 @@
 > C、目标检测
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.1.4.2-006.png" width=750>
+<img src="../../Z/7.1.4.2-006.png" width=750>
 </p>
 
 > Facebook开源Detectron，[https://github.com/facebookresearch/Detectron](https://github.com/facebookresearch/Detectron)
@@ -283,7 +283,7 @@
 
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.1.4.2-007.png" width=750>
+<img src="../../Z/7.1.4.2-007.png" width=750>
 </p>
 
 > 据此框架，可自训练目标检测模型，如用于视觉风控。`待分享`
@@ -336,13 +336,13 @@
 #### 7.1.4.3 复杂模型
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.1.4.3-000.png" width=750>
+<img src="../../Z/7.1.4.3-000.png" width=750>
 </p>
 
 研究方向，其中方法二目前应用较广，但整体仍处于初步研究。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.1.4.3-001.png" width=750>
+<img src="../../Z/7.1.4.3-001.png" width=750>
 </p>
 
 > 复杂模型的可解释性除了能更好地给以业务反馈，也是复杂模型能在银行这种传统甚至保守企业落地的关键。
@@ -355,7 +355,7 @@
 > 
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.1.4.3-002.png" width=750>
+<img src="../../Z/7.1.4.3-002.png" width=750>
 </p>
 
 >  
@@ -369,7 +369,7 @@
 #### 7.1.4.4 个性化建模需求
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.1.4.4-000.png" width=750>
+<img src="../../Z/7.1.4.4-000.png" width=750>
 </p>
 
 > 2017年A银行为提高模型生产效率，开发过基于SAS、Python的`自动建模`工具。
@@ -396,7 +396,7 @@
 > 
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.1.4.4-001.png" width=750>
+<img src="../../Z/7.1.4.4-001.png" width=750>
 </p>
 
 > D、模型融合

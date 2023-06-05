@@ -28,61 +28,61 @@
 1、计算机的核心是CPU，它承担了所有的计算任务。它就像一座工厂，时刻在运行。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.1.1-000.png" height=200>
+<img src="../../Z/8.1.1.1-000.png" height=200>
 </p>
 
 2、假定工厂的电力有限，一次只能供给一个车间使用。也就是说，一个车间开工的时候，其他车间都必须停工。背后的含义就是，单个CPU一次只能运行一个任务。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.1.1-001.png" height=200>
+<img src="../../Z/8.1.1.1-001.png" height=200>
 </p>
 
 3、进程就好比工厂的车间，它代表CPU所能处理的单个任务。任一时刻，CPU总是运行一个进程，其他进程处于非运行状态。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.1.1-002.png" height=200>
+<img src="../../Z/8.1.1.1-002.png" height=200>
 </p>
 
 4、一个车间里，可以有很多工人。他们协同完成一个任务。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.1.1-003.png" height=200>
+<img src="../../Z/8.1.1.1-003.png" height=200>
 </p>
 
 5、线程就好比车间里的工人。一个进程可以包括多个线程。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.1.1-004.png" height=200>
+<img src="../../Z/8.1.1.1-004.png" height=200>
 </p>
 
 6、车间的空间是工人们共享的，比如许多房间是每个工人都可以进出的。这象征一个进程的内存空间是共享的，每个线程都可以使用这些共享内存。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.1.1-005.png" height=200>
+<img src="../../Z/8.1.1.1-005.png" height=200>
 </p>
 
 7、可是，每间房间的大小不同，有些房间最多只能容纳一个人，比如厕所。里面有人的时候，其他人就不能进去了。这代表一个线程使用某些共享内存时，其他线程必须等它结束，才能使用这一块内存。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.1.1-006.png" height=200>
+<img src="../../Z/8.1.1.1-006.png" height=200>
 </p>
 
 8、一个防止他人进入的简单方法，就是门口加一把锁。先到的人锁上门，后到的人看到上锁，就在门口排队，等锁打开再进去。这就叫"互斥锁"（Mutual exclusion，缩写 Mutex），防止多个线程同时读写某一块内存区域。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.1.1-007.png" height=200>
+<img src="../../Z/8.1.1.1-007.png" height=200>
 </p>
 
 9、还有些房间，可以同时容纳n个人，比如厨房。也就是说，如果人数大于n，多出来的人只能在外面等着。这好比某些内存区域，只能供给固定数目的线程使用。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.1.1-008.png" height=200>
+<img src="../../Z/8.1.1.1-008.png" height=200>
 </p>
 
 10、这时的解决方法，就是在门口挂n把钥匙。进去的人就取一把钥匙，出来时再把钥匙挂回原处。后到的人发现钥匙架空了，就知道必须在门口排队等着了。这种做法叫做"信号量"（Semaphore），用来保证多个线程不会互相冲突。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.1.1-009.png" height=200>
+<img src="../../Z/8.1.1.1-009.png" height=200>
 </p>
 
 不难看出，mutex是semaphore的一种特殊情况（n=1时）。也就是说，完全可以用后者替代前者。但是，因为mutex较为简单，且效率高，所以在必须保证资源独占的情况下，还是采用这种设计。
@@ -93,7 +93,7 @@
 （3）提供协调机制，一方面防止进程之间和线程之间产生冲突，另一方面允许进程之间和线程之间共享资源；
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.1.1-010.png" height=200>
+<img src="../../Z/8.1.1.1-010.png" height=200>
 </p>
 
 12、网上有一个比喻用来比较 GPU 和 CPU ，100 个小学生(GPU)和一个大学教授(CPU)组成两队进行数学比赛，第一回合是两队分别完成 100 道四则运算题，比赛开始，第一回合教授还在写的时候，小学生们已经完成了答题，然后进行了第二回合，第二回合是两队分别完成 1 道高等数学题目，教授已经完成了答题，100 个小学生们还在苦苦冥想。
@@ -134,7 +134,7 @@
 其思维导图如下：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.1.2-000.png">
+<img src="../../Z/8.1.1.2-000.png">
 </p>
 
 如冒泡排序：
@@ -144,7 +144,7 @@
 > 
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.1.2-001.png" height=400>
+<img src="../../Z/8.1.1.2-001.png" height=400>
 </p>
 
 但这也只是理论，较难理解，以下我们举些简单的应用示例，或来自思维训练，或来自生产实际。
@@ -300,24 +300,24 @@ Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个�
 Git 与常用的版本控制工具 CVS, Subversion 等不同，它采用了分布式版本库的方式，不必服务器端软件支持。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.2.2-000.png" width=600>
+<img src="../../Z/8.1.2.2-000.png" width=600>
 </p>
 
 - Git常见命令
 - [github-git-cheat-sheet.pdf](https://ivan-bucket-out-001.oss-cn-beijing.aliyuncs.com/out/DS/github-git-cheat-sheet.pdf)
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.2.2-001.png">
+<img src="../../Z/8.1.2.2-001.png">
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.2.2-002.png">
+<img src="../../Z/8.1.2.2-002.png">
 </p>
 
 - Git In SAS EG
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.2.2-003.png" width=600>
+<img src="../../Z/8.1.2.2-003.png" width=600>
 </p>
 
 SAS EG中红框部分（若有配置）即为Git功能，编写代码后点击提交可进行代码版本Git管理。
@@ -375,7 +375,7 @@ Commit 操作是用来将更改从工作副本到版本库。这个操作会修�
   TortoiseSVN称为checkout、TortoiseGit则保留Git的clone名称，即
 ```
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.2.4-000.png" width=600>
+<img src="../../Z/8.1.2.4-000.png" width=600>
 </p>
 
 -  版本提交、版本记录  
@@ -383,7 +383,7 @@ Commit 操作是用来将更改从工作副本到版本库。这个操作会修�
   即commit，但一般我们会习惯性忽略`Message`，我们输入“Ivan ADD 0.txt”作为示例。
 ```
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.2.4-001.png" width=600>
+<img src="../../Z/8.1.2.4-001.png" width=600>
 </p>
 
 值得注意的是，硬性要求commit需要Message时，也会规范Message内容，如下：
@@ -416,7 +416,7 @@ Commit 操作是用来将更改从工作副本到版本库。这个操作会修�
   即update，Git下需pull。
 ```
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.2.4-002.png" width=600>
+<img src="../../Z/8.1.2.4-002.png" width=600>
 </p>
 
 -  版本记录  
@@ -424,13 +424,13 @@ Commit 操作是用来将更改从工作副本到版本库。这个操作会修�
   Show log，查看版本记录日志，可通过右键查看，
 ```
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.2.4-003.png" width=600>
+<img src="../../Z/8.1.2.4-003.png" width=600>
 </p>
 
 我们尝试找回上述提交：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.2.4-004.png" width=600>
+<img src="../../Z/8.1.2.4-004.png" width=600>
 </p>
 
 -  版本回滚  
@@ -438,7 +438,7 @@ Commit 操作是用来将更改从工作副本到版本库。这个操作会修�
   选择对应版本，可选择回滚或其他操作。
 ```
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.2.4-005.png" width=600>
+<img src="../../Z/8.1.2.4-005.png" width=600>
 </p>
 
 -  差异查看  
@@ -446,7 +446,7 @@ Commit 操作是用来将更改从工作副本到版本库。这个操作会修�
   一般，本地与远程版本一致时显示图标为绿色，有一定差异时会显示为红色，此时可通过右键Diff查看：
 ```
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.2.4-006.png" width=600>
+<img src="../../Z/8.1.2.4-006.png" width=600>
 </p>
 
 -  版本锁定 
@@ -545,7 +545,7 @@ UTF-8的特点是对不同范围的字符使用不同长度的编码。对于0×
 ASCII使用一个字节的其中7位二进制数来表示所有的大写和小写字母，数字0 到9、标点符号， 以及在美式英语中使用的特殊控制字符。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.3.4-000.png" width=900>
+<img src="../../Z/8.1.3.4-000.png" width=900>
 </p>
 
 - BOM
@@ -596,7 +596,7 @@ UTF-8不需要BOM来表明字节顺序，但可以用BOM来表明编码方式。
 示例：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.5.1-000.png" width=1200>
+<img src="../../Z/8.1.5.1-000.png" width=1200>
 </p>
 
 #### 8.1.5.2 甘特图
@@ -619,5 +619,5 @@ section 账单分期响应策略
 呈现效果：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.1.5.2-000.png" width=1200>
+<img src="../../Z/8.1.5.2-000.png" width=1200>
 </p>

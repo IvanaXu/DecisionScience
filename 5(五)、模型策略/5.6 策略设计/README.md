@@ -23,7 +23,7 @@
 当前业务流程梳理，这里包括短信提示、电销外呼业务，可细化到短信内容明细、外呼筛选条件等。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.6.1.1-000.png" width=800>
+<img src="../../Z/5.6.1.1-000.png" width=800>
 </p>
 
 #### 5.6.1.2 现状分析
@@ -31,7 +31,7 @@
 展开累积激活率分析，并细化电销现有促激活情况分析，找到业务机会和优化方向，属于策略设计重要前置工作。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.6.1.2-000.png" width=600>
+<img src="../../Z/5.6.1.2-000.png" width=600>
 </p>
 
 #### 5.6.1.3 业务痛点
@@ -55,7 +55,7 @@
 - 模型验证
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.6.2.1-000.png" width=600>
+<img src="../../Z/5.6.2.1-000.png" width=600>
 </p>
 
 #### 5.6.2.2 实验设计
@@ -95,7 +95,7 @@
 结合人员成本，进行电销外呼营销户均成本预估：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.6.2.4-000.png" width=600>
+<img src="../../Z/5.6.2.4-000.png" width=600>
 </p>
 
 如上，增加1位电销员外呼营销户均成本相对最低。
@@ -161,5 +161,5 @@
 根据策略实验结果，调整激活概率预测模型，并结合客户价值模型（或调整），进一步细分客群，如下图所示：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.6.3.4-000.png" width=600>
+<img src="../../Z/5.6.3.4-000.png" width=600>
 </p>

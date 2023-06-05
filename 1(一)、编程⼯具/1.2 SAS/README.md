@@ -872,7 +872,7 @@ RUN;
 
 ### 1.2.4 SAS Help使⽤
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.4.0-000.png" width=800>
+<img src="../../Z/1.2.4.0-000.png" width=800>
 </p>
 
 如上SAS书籍，专门强调了SAS Help and Documentation的重要性。
@@ -883,7 +883,7 @@ RUN;
 如Contents就提供这样的阅读目录，可一览SAS Products.
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.4.1-000.png" width=400>
+<img src="../../Z/1.2.4.1-000.png" width=400>
 </p>
 
 #### 1.2.4.2 关键字搜索
@@ -891,13 +891,13 @@ RUN;
 如输入`substr`
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.4.2-000.png" width=400>
+<img src="../../Z/1.2.4.2-000.png" width=400>
 </p>
 
 当然，也有缺点，尤其个别奇奇怪怪的关键字，如输入`index`
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.4.2-001.png" width=400>
+<img src="../../Z/1.2.4.2-001.png" width=400>
 </p>
 
 搜索结果令人无所适从。
@@ -949,13 +949,13 @@ operates on variables and returns names, types, lengths, informats, labels, and 
 Array为例，共计如下4个函数，
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.4.3-000.png" width=400>
+<img src="../../Z/1.2.4.3-000.png" width=400>
 </p>
 
 点进DIM函数，也能发现所在Category。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.4.3-001.png" width=400>
+<img src="../../Z/1.2.4.3-001.png" width=400>
 </p>
 
 （2）See Also
@@ -963,7 +963,7 @@ Array为例，共计如下4个函数，
 以DIM函数为例，就把该Category下的其他类似函数链接出来。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.4.3-002.png" width=400>
+<img src="../../Z/1.2.4.3-002.png" width=400>
 </p>
 
 #### 1.2.4.4 总结
@@ -975,7 +975,7 @@ Array为例，共计如下4个函数，
 Win + R，输入sas即可调出SAS BASE，页面如下：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.1-000.png">
+<img src="../../Z/1.2.5.1-000.png">
 </p>
 
 - 逻辑库-浏览创建SAS库管理、浏览SAS库文件（移动、复制、更名和删除）、建立非SAS文件的快捷方式；
@@ -994,7 +994,7 @@ SAS Enterprise Guide基本使用教程，特指远程连接模式：
 （2.1）若提示情况如下：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.2-000.png" width=500>
+<img src="../../Z/1.2.5.2-000.png" width=500>
 </p>
 
 输入用户名、密码，点击“确认”即可。
@@ -1002,19 +1002,19 @@ SAS Enterprise Guide基本使用教程，特指远程连接模式：
 （2.2）若提示情况如下：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.2-001.png" width=500>
+<img src="../../Z/1.2.5.2-001.png" width=500>
 </p>
 
 点击“是”，进入连接属性，如下。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.2-002.png" width=500>
+<img src="../../Z/1.2.5.2-002.png" width=500>
 </p>
 
 （2.3）若无配置文件列表，则点击“添加”。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.2-003.png" width=500>
+<img src="../../Z/1.2.5.2-003.png" width=500>
 </p>
 
 （2.4）在设置中填写名称（可自定义），远程连接服务器的地址、端口、登录的用户名、密码等。填写完毕后点击“保存”，后续步骤与已有配置文件的步骤（2.5）一致。
@@ -1022,13 +1022,13 @@ SAS Enterprise Guide基本使用教程，特指远程连接模式：
 （2.5）若已有配置文件，则选择给定的特定文件，点击“设为活动”，将弹出用户登录界面。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.2-004.png" width=500>
+<img src="../../Z/1.2.5.2-004.png" width=500>
 </p>
 
 输入给定的用户名和密码，点击“确定”。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.2-005.png" width=500>
+<img src="../../Z/1.2.5.2-005.png" width=500>
 </p>
 
 点击关闭后即可。
@@ -1036,13 +1036,13 @@ SAS Enterprise Guide基本使用教程，特指远程连接模式：
 （3.1）点击左上角文件，新建，程序。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.2-006.png" width=500>
+<img src="../../Z/1.2.5.2-006.png" width=500>
 </p>
 
 （3.2）在右侧增强型编辑器区域编写代码，如下。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.2-007.png" width=500>
+<img src="../../Z/1.2.5.2-007.png" width=500>
 </p>
 
 （3.3）代码编写完毕后，点击“运行”，或通过键盘快捷键F3或F8，运行程序。
@@ -1054,14 +1054,14 @@ SAS Enterprise Guide基本使用教程，特指远程连接模式：
 （1）基本操作
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.3-000.png" width=500>
+<img src="../../Z/1.2.5.3-000.png" width=500>
 </p>
 
 （2）新建项目
 登录后界面如下图，如果已经建立过项目则选择“打开项目”，新建项目则选择“新建项目”，注意：新建项目请放置在个人目录下。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.3-001.png" width=500>
+<img src="../../Z/1.2.5.3-001.png" width=500>
 </p>
 
 （3）新建逻辑库
@@ -1069,11 +1069,11 @@ SAS Enterprise Guide基本使用教程，特指远程连接模式：
 加载逻辑库的两种方式如下图。其中逻辑库路径即分析数据的目录。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.3-002.png" width=500>
+<img src="../../Z/1.2.5.3-002.png" width=500>
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.3-003.png" width=500>
+<img src="../../Z/1.2.5.3-003.png" width=500>
 </p>
 
 （4）创建流程图、创建数据源
@@ -1081,18 +1081,18 @@ SAS Enterprise Guide基本使用教程，特指远程连接模式：
 创建数据源后才可以对数据进行分析。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.3-004.png" width=500>
+<img src="../../Z/1.2.5.3-004.png" width=500>
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.3-005.png" width=500>
+<img src="../../Z/1.2.5.3-005.png" width=500>
 </p>
 
 （5）代码编写窗口
 SAS EM中有类似base的代码编写功能，在这里可以做一些数据查看和处理。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.3-006.png" width=500>
+<img src="../../Z/1.2.5.3-006.png" width=500>
 </p>
 
 （6）建模功能
@@ -1107,21 +1107,21 @@ SAS大学生版本，通过VirtualBox的轻量级（2G）SAS版本，支持Windo
 安装步骤：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.4-000.png">
+<img src="../../Z/1.2.5.4-000.png">
 </p>
 
 开启页面：
 输入浏览器上输入[http://0.0.0.0:10080/](http://0.0.0.0:10080/)
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.4-001.png">
+<img src="../../Z/1.2.5.4-001.png">
 </p>
 
 JupyterLab：
 与python-Jupyter一致，易保存易共享，本文后续SAS代码大部分经此工具校验调试。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.4-002.png">
+<img src="../../Z/1.2.5.4-002.png">
 </p>
 
 未来可期！
@@ -1133,7 +1133,7 @@ JupyterLab：
 > 请多关注SAS版本修订。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.5.4-003.png" width=500>
+<img src="../../Z/1.2.5.4-003.png" width=500>
 </p>
 
 ### 1.2.6 SAS代码规范
@@ -1443,7 +1443,7 @@ PROC FREQ DATA = SASHELP.CLASS;
 RUN;
 ```
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.7.0-000.png" width=500>
+<img src="../../Z/1.2.7.0-000.png" width=500>
 </p>
 
 #### ～PROC SUMMARY
@@ -1467,7 +1467,7 @@ RUN; */
 ```
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.7.0-001.png" width=500>
+<img src="../../Z/1.2.7.0-001.png" width=500>
 </p>
 
 #### ～哈希表HASH连接
@@ -1539,7 +1539,7 @@ RUN;
 ```
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.7.0-002.png" width=500>
+<img src="../../Z/1.2.7.0-002.png" width=500>
 </p>
 
 #### ～Lift提升度
@@ -1627,7 +1627,7 @@ ODS GRAPHICS OFF;
 ```
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.7.0-003.png" width=500>
+<img src="../../Z/1.2.7.0-003.png" width=500>
 </p>
 
 #### ～自制数据集
@@ -1647,7 +1647,7 @@ RUN;
 ```
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.7.0-004.png" width=500>
+<img src="../../Z/1.2.7.0-004.png" width=500>
 </p>
 
 #### ～宏变量工厂
@@ -1839,7 +1839,7 @@ RDAT1=20200102 RDAT2=20200108 _ERROR_=0 _N_=3
 ```
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.2.7.0-005.png" width=500>
+<img src="../../Z/1.2.7.0-005.png" width=500>
 </p>
 
 显然，我们在RAMT1、RDAT1上把要求逻辑实现了一遍，且PUT出来了DATA执行前后`_ALL_`的变化。

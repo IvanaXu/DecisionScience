@@ -301,19 +301,19 @@ ps -ef|grep python
 #### ~编辑脚本文件
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.4.2.0-000.png" height=400>
+<img src="../../Z/1.4.2.0-000.png" height=400>
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.4.2.0-001.jpeg" height=400>
+<img src="../../Z/1.4.2.0-001.jpeg" height=400>
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.4.2.0-002.jpeg" height=400>
+<img src="../../Z/1.4.2.0-002.jpeg" height=400>
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.4.2.0-003.jpeg" height=400>
+<img src="../../Z/1.4.2.0-003.jpeg" height=400>
 </p>
 
 > 详见 [https://www.runoob.com/linux/linux-vim.html](https://www.runoob.com/linux/linux-vim.html)
@@ -330,7 +330,7 @@ cat run.sh
 #### ~修改文件权限
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.4.2.0-004.png" height=400>
+<img src="../../Z/1.4.2.0-004.png" height=400>
 </p>
 
 > 详见 [https://www.runoob.com/linux/linux-comm-chmod.html](https://www.runoob.com/linux/linux-comm-chmod.html)

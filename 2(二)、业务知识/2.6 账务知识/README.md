@@ -27,14 +27,14 @@
 A：12月10号最后还款日时生效，12月的账单日为11号
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.6.1.0-000.png" width=1200>
+<img src="../../Z/2.6.1.0-000.png" width=1200>
 </p>
 
 > Q：假设还款宽限期20天，旧账单日为20号，12月15日申请更改账单日，如果新账单日分别为12号和25号，下一个账单日是哪一天？
 A：立即生效，1月12号(12月无账单)，12月25日
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.6.1.0-001.png" width=1200>
+<img src="../../Z/2.6.1.0-001.png" width=1200>
 </p>
 
 ### 2.6.2 分期产品设置
@@ -43,7 +43,7 @@ A：立即生效，1月12号(12月无账单)，12月25日
 - 针对不同分数区间的客户，进行标签管理
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.6.2.0-000.png" width=1200>
+<img src="../../Z/2.6.2.0-000.png" width=1200>
 </p>
 
 账户标签的定义逻辑由外部评分模型等系统提供，以账户号为索引，记录在发卡系统。账户标签可以通过画面CUNEG/4118交易/批量接口COMMONEW对账户标签进行查询与维护。标签字段（长度500位），供银行存放（外部评分模型系统提供的）对客户的分类标识。
@@ -53,7 +53,7 @@ A：立即生效，1月12号(12月无账单)，12月25日
 	后续再出现标签方面的需求时可以先在CODES表中进行标签内容的设定，然后就可以使用接口进行对应标签内容的配置。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.6.2.0-001.png" width=1200>
+<img src="../../Z/2.6.2.0-001.png" width=1200>
 </p>
 
 - 分期付款手续费费率
@@ -62,22 +62,22 @@ A：立即生效，1月12号(12月无账单)，12月25日
 
 （1）MPTCD分期费率代码维护
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.6.2.0-002.png" width=1200>
+<img src="../../Z/2.6.2.0-002.png" width=1200>
 </p>
 
 （2）MPPRD分期费率代码与分期产品关系维护
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.6.2.0-003.png" width=1200>
+<img src="../../Z/2.6.2.0-003.png" width=1200>
 </p>
 
 （3）MPSRC分期费率代码与申请渠道的关系维护
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.6.2.0-004.png" width=1200>
+<img src="../../Z/2.6.2.0-004.png" width=1200>
 </p>
 
 （4）ACMT2分期费率绑定关联账户
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.6.2.0-005.png" width=1200>
+<img src="../../Z/2.6.2.0-005.png" width=1200>
 </p>
 
 根据账户号查询卡号，在ACMT2画面，通过分期费率代码绑定关联账户。分期付款手续费费率的逻辑是PRPRD基础费率与三个画面的费率关系做加乘处理，当PRMSR画面同时设置费率折扣系数时，仍然按照PRPRD基础费率与三个画面的费率关系做加乘处理。

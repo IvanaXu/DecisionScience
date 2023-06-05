@@ -107,7 +107,7 @@ M1、M2、M3
 ### 2.1.4 账户架构
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/2.1.4.0-000.png">
+<img src="../../Z/2.1.4.0-000.png">
 </p>
 
 1、客户层

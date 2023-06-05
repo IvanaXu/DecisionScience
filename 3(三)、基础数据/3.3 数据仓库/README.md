@@ -19,7 +19,7 @@
 基本结构：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.3.1.0-000.png" width=600>
+<img src="../../Z/3.3.1.0-000.png" width=600>
 </p>
 
 以下辅助信用卡数据案例介绍之：
@@ -119,7 +119,7 @@
 由上可见，元数据不仅定义了数据仓库中数据的模式、来源、抽取和转换规则等，而且是整个数据仓库系统运行的基础，元数据把数据仓库系统中各个松散的组件联系起来，组成了一个有机的整体。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.3.1.4-000.png" width=600>
+<img src="../../Z/3.3.1.4-000.png" width=600>
 </p>
 
 - 元数据的存储方式
@@ -199,7 +199,7 @@
 ### 3.3.2 主流组件
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/3.3.2.0-000.png">
+<img src="../../Z/3.3.2.0-000.png">
 </p>
 
 ### 3.3.3 数据切片

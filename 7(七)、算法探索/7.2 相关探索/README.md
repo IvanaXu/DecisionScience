@@ -319,7 +319,7 @@ QUIT;
 ```
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.2.2.1-000.png" width=400>
+<img src="../../Z/7.2.2.1-000.png" width=400>
 </p>
 
 - 结果验证
@@ -354,7 +354,7 @@ QUIT;
 ```
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.2.2.1-001.png" width=400>
+<img src="../../Z/7.2.2.1-001.png" width=400>
 </p>
 
 结果可精确至小数点后，MAPE仅为0.000023.
@@ -415,7 +415,7 @@ QUIT;
 ```
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.2.2.2-000.png" width=400>
+<img src="../../Z/7.2.2.2-000.png" width=400>
 </p>
 
 - 结果验证
@@ -450,7 +450,7 @@ QUIT;
 ```
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.2.2.2-001.png" width=400>
+<img src="../../Z/7.2.2.2-001.png" width=400>
 </p>
 
 结果可精确至小数点后，MAPE仅为0.001679.
@@ -515,15 +515,15 @@ RUN;
 一般地，会通过PROC FREQ查看各变量与目标变量Y关系。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.2.3.1-000.png" width=400>
+<img src="../../Z/7.2.3.1-000.png" width=400>
 </p>
 
 <p align="center">
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.2.3.1-001.png" width=400>
+  <img src="../../Z/7.2.3.1-001.png" width=400>
 </p>  
 
 <p align="center">
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.2.3.1-002.png" width=400>
+  <img src="../../Z/7.2.3.1-002.png" width=400>
 </p>
 
 如事先构想，T_2与目标强相关，T_4几乎随机分布，T_6看似与目标强相关。
@@ -531,19 +531,19 @@ RUN;
 - T_2
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.2.3.1-003.png" width=400>
+<img src="../../Z/7.2.3.1-003.png" width=400>
 </p>
 
 - T_4
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.2.3.1-004.png" width=400>
+<img src="../../Z/7.2.3.1-004.png" width=400>
 </p>
 
 - T_6
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.2.3.1-005.png" width=400>
+<img src="../../Z/7.2.3.1-005.png" width=400>
 </p>
 
 曲线上很明显透露了T_2与目标强相关，且账龄0-25销户属于自然现象，账龄25+起，历史无消费群体销户趋势逐渐出现；T_4随机分布，故而呈现销户趋势的红线和蓝线几乎完全贴合；T_6可以看到账龄0-50（即对应20170101后开户），呈现销户趋势的红线和蓝线也几乎完全贴合，之后蓝线开始有大幅下降趋势，而红线戛然而止，这是因为20170101后开户群体账龄不足50+，后续无表现。如上，显然加入了时间维度后模型未受变量销户率“迷惑”。
@@ -556,7 +556,7 @@ RUN;
 随着宽带市场日趋饱和，竞争愈发激烈，客户流失现象也日益严重，如何减少客户流失成为电信运营商们关注的焦点问题。文章基于生存分析理论，提出电信宽带客户生存分析模型的客户流失预测方法，利用某电信公司宽带客户 5525 个真实数据，分析宽带客户的生存时间，研究影响宽带客户流失的因素，进而提出有效的防止客户流失的对策。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.2.3.2-000.png" width=400>
+<img src="../../Z/7.2.3.2-000.png" width=400>
 </p>
 
 更多细节：
@@ -579,7 +579,7 @@ RUN;
 可以用一个简单的例子来理解 Isolation Forest 的基本想法。假设现在有一组一维数据，我们要对这组数据进行随机切分，希望可以把点 A 和点 B 单独切分出来。具体的，我们先在最大值和最小值之间随机选择一个值 x，然后按照 <x 和 >=x 可以把数据分成左右两组。然后，在这两组数据中分别重复这个步骤，直到数据不可再分。显然，点 B 跟其他数据比较疏离，可能用很少的次数就可以把它切分出来；点 A 跟其他数据点聚在一起，可能需要更多的次数才能把它切分出来。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.2.4.1-000.png" width=800>
+<img src="../../Z/7.2.4.1-000.png" width=800>
 </p>
 
 同样，推演上述逻辑至二维。
@@ -587,7 +587,7 @@ RUN;
 - 代码示例
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.2.4.1-001.png" width=800>
+<img src="../../Z/7.2.4.1-001.png" width=800>
 </p>
 
 #### 7.2.4.2 行业策略
@@ -833,7 +833,7 @@ RUN;
 输出结果：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.2.5.2-000.png" width=400>
+<img src="../../Z/7.2.5.2-000.png" width=400>
 </p>
 
 ### 7.2.6 NLP
@@ -970,7 +970,7 @@ print(metrics.f1_score(Y, model2.predict(_X)))
 简单来说，如下稀疏矩阵转换后，仅对有效值进行保存和计算，将减少0元素消耗的不必要资源。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/7.2.6.2-000.png" width=400>
+<img src="../../Z/7.2.6.2-000.png" width=400>
 </p>
 
 应用稀疏矩阵，包含如下：

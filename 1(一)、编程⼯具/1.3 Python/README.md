@@ -819,7 +819,7 @@ def f(a):
 示例，009.Test_multiprocessing_run, multiprocessing多线程
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.3.8.0-000.png" height=400>
+<img src="../../Z/1.3.8.0-000.png" height=400>
 </p>
 
 ### 1.3.9 Python编译

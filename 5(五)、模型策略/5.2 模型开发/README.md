@@ -154,7 +154,7 @@ $X_{norm} = \frac{X - X_{mean}}{X_{std}}$
 如下图，血型就是一个类别型特征，其具体值可以为A、B、AB、O，其编码方式有：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.2.1.4-000.png" width=600>
+<img src="../../Z/5.2.1.4-000.png" width=600>
 </p>
 
 （1）序号编码
@@ -295,7 +295,7 @@ from sklearn.feature_selection import RFE
 最后，我们抛开模型算法，专讲欠拟合、过拟合问题，并着重解决方向。
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/5.2.3.0-000.png" width=400>
+<img src="../../Z/5.2.3.0-000.png" width=400>
 </p>
 
 #### 5.2.3.1 欠拟合

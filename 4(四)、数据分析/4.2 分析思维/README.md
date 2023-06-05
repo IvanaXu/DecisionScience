@@ -5,7 +5,7 @@
 ### 4.2.1 逻辑思维
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/4.2.1.0-000.png" height=300>
+<img src="../../Z/4.2.1.0-000.png" height=300>
 </p>
 
 > Q：
@@ -35,7 +35,7 @@
 一图了然：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/4.2.2.0-000.png" height=300>
+<img src="../../Z/4.2.2.0-000.png" height=300>
 </p>
 
 > 详见《金字塔原理：麦肯锡的结构化思维》

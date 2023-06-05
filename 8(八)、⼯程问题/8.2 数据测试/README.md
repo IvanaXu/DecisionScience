@@ -68,11 +68,11 @@ RUN;
 输出结果如下：
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.2.1.2-000.png" width=400>
+<img src="../../Z/8.2.1.2-000.png" width=400>
 </p>
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/8.2.1.2-001.png" width=400>
+<img src="../../Z/8.2.1.2-001.png" width=400>
 </p>
 
 

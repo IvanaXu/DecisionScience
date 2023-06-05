@@ -261,30 +261,30 @@ ctrl+g定位 - 定位条件 - 对象 - 删除
 普及数据透视表概念，配合`PROC SUMMARY`，简直是数据分析利器，图有指出处。
 
 <p align="center">
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.5.2.0-000.jpeg" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.5.2.0-001.jpeg" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.5.2.0-002.jpeg" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.5.2.0-003.jpeg" width=800>
+  <img src="../../Z/1.5.2.0-000.jpeg" width=800>
+  <img src="../../Z/1.5.2.0-001.jpeg" width=800>
+  <img src="../../Z/1.5.2.0-002.jpeg" width=800>
+  <img src="../../Z/1.5.2.0-003.jpeg" width=800>
   
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.5.2.0-004.jpeg" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.5.2.0-005.jpeg" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.5.2.0-006.jpeg" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.5.2.0-007.jpeg" width=800>
+  <img src="../../Z/1.5.2.0-004.jpeg" width=800>
+  <img src="../../Z/1.5.2.0-005.jpeg" width=800>
+  <img src="../../Z/1.5.2.0-006.jpeg" width=800>
+  <img src="../../Z/1.5.2.0-007.jpeg" width=800>
   
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.5.2.0-008.jpeg" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.5.2.0-009.jpeg" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.5.2.0-010.jpeg" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.5.2.0-011.jpeg" width=800>
+  <img src="../../Z/1.5.2.0-008.jpeg" width=800>
+  <img src="../../Z/1.5.2.0-009.jpeg" width=800>
+  <img src="../../Z/1.5.2.0-010.jpeg" width=800>
+  <img src="../../Z/1.5.2.0-011.jpeg" width=800>
   
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.5.2.0-012.jpeg" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.5.2.0-013.jpeg" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.5.2.0-014.jpeg" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.5.2.0-015.jpeg" width=800>
+  <img src="../../Z/1.5.2.0-012.jpeg" width=800>
+  <img src="../../Z/1.5.2.0-013.jpeg" width=800>
+  <img src="../../Z/1.5.2.0-014.jpeg" width=800>
+  <img src="../../Z/1.5.2.0-015.jpeg" width=800>
   
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.5.2.0-016.jpeg" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.5.2.0-017.jpeg" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.5.2.0-018.jpeg" width=800>
-  <img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.5.2.0-019.jpeg" width=800>
+  <img src="../../Z/1.5.2.0-016.jpeg" width=800>
+  <img src="../../Z/1.5.2.0-017.jpeg" width=800>
+  <img src="../../Z/1.5.2.0-018.jpeg" width=800>
+  <img src="../../Z/1.5.2.0-019.jpeg" width=800>
 </p>
 
 ### 1.5.3 Excel-SAS控件
@@ -294,7 +294,7 @@ ctrl+g定位 - 定位条件 - 对象 - 删除
 - Excel-SAS控件
 
 <p align="center">
-<img src="https://github.com/IvanaXu/DecisionScience/releases/download/base/1.5.3.0-000.png">
+<img src="../../Z/1.5.3.0-000.png">
 </p>
 
 对于远程连接SAS模式，Excel直接读取并数据透视之，甚至自动图或快速统计，也都非常方便愉快。
