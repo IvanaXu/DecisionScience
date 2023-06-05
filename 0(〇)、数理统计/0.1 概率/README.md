@@ -391,7 +391,7 @@ f(x)=\left\{
 \begin{array}{rcl}
 \frac{1}{\theta}e^{-x/\theta} & & {x\ge0}\\
 0 & & {other}\\
-\end{array} \right.
+\end{array} \right
 $$
 
 指数分布的公式可以从泊松分布推断出来，引用上例，
