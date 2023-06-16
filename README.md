@@ -1,14 +1,17 @@
 # Decision Science/决策科学
 
 <div align=center>
+
 </p>
 What is Decision Science？
 </p>
+
 <img src="Z/0.0.0.0-000.jpeg" height=400>
+
 </p>
 事实上，我们在做一件很需要专注的事情，需要不止10000个小时。
 </p>
-</div>
+
 
 #### [版本修订](https://github.com/IvanaXu/DecisionScience/projects)
 
@@ -24,3 +27,9 @@ What is Decision Science？
 |v1.2.2|Ivan|再版✨|2023-05-04|1、Github版本|
 |v1.2.3|Ivan|修订  |2023-05-05|1、v1.2.2 Review|
 |v1.2.4|Ivan|修订  |2023-05-05|1、v1.2.3 Update assets|
+
+[![IvanaXu/DecisionScience](https://gitee.com/IvanaXu/DecisionScience/widgets/widget_card.svg?colors=4183c4,ffffff,ffffff,e3e9ed,666666,9b9b9b)](https://gitee.com/IvanaXu/DecisionScience)
+
+https://github.com/IvanaXu/DecisionScience
+
+</div>
